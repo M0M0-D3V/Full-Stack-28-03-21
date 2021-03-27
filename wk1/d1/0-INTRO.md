@@ -47,24 +47,31 @@ Attendance (Who am I)
 
 ## Contacts
 
-Instructor Email: Chris - cbautista@codingdojo.com
+Instructor Email: Monica - mhong@codingdojo.com
 
-TA Email: Monica - mhong@codingdojo.com
+TA Email: Alreem - aabbad_p@mcit.gov.sa
 
 ## Schedule Overview
 
-- Web Fundamentals (2 weeks) 11/15/2020 - 11/26/2020
-  - Exam W1D5 - 11/19/2020
-- Python (4 weeks) 11/29/2020 - 12/24/2020
-  - Exam W3D5 - 12/17/2020
-  - Projects W4
-- Project Week Break (1 week) 12/26/2020 - 12/31/2020
-- MERN (4 weeks) 01/03/2021 - 01/28/2021
-  - Exam W3D5 - 01/21/2021
-  - Projects W4
-- Java (4 weeks) 01/31/2021 - 02/25/2021
-  - Exam W3D5 - 02/18/2021
-  - Projects W4
+- Web Fundamentals (2 weeks) 28/MAR/2021 - 10/APR/2021
+  - Exam W1D5 - 01/APR/2021
+
+#### Special Ramadan Schedule
+
+- Python (4 weeks) 11/APR/2021 - 06/MAY/2021
+  - Exam W3D5 - 29/APR/2021
+  - Projects W4 - 06/MAY/2021
+
+#### 2 Weeks Break for Ramadan
+
+#### Back to 9am Schedule...
+
+- MERN (4 weeks) 23/MAY/2021 - 17/JUN/2021
+  - Exam W3D5 - 10/JUN/2021
+  - Projects W4 - 17/JUN/2021
+- C#/.NET (4 weeks) 20/JUN/2021 - 15/JUL/2021
+  - Exam W3D5 - 08/JUL/2021
+  - Projects W4 - 15/JUL/2021
 
 ### Daily Schedule - Sunday - Thursday
 
@@ -72,7 +79,7 @@ TA Email: Monica - mhong@codingdojo.com
 - 10:00 - Lecture/Discussion
 - 11:00 - Group Acitivty
 - 12:00 - Lunch
-- 14:00 - Q/A || Discussion
+- 15:00 - Q/A || Discussion
 
 ## Questions
 
@@ -100,4 +107,4 @@ Goal: What collective knowledge we already have
 - [tour the platform](https://learn.codingdojo.com/dashboard#tracks_container)
 - checklist
 - surveys
-- exam on Friday
+- exam on Thursday

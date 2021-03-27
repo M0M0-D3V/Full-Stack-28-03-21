@@ -3,12 +3,7 @@ var members = ["name", "name"];
 
 // 1. Print 1-255
 // Print all the integers from 1 to 255.
-function print1To255() {
-  // code here
-  console.log("printing!");
-}
-
-print1To255();
+// print1To255();
 
 // 2. Print Odds 1-255
 // Print all odd integers from 1 to 255.
