@@ -23,10 +23,13 @@ console.log(array1[2]);
 
 function push(arr, newItem) {
     // code here
+    var x = arr.length;
+    arr[x] = newItem;
+    return arr.length;
 }
-x = []
-f
-    /* ******************************************************************************** */
+
+
+/* ******************************************************************************** */
 
 /*
     Given an array and an int which represents the position starting from the back,
@@ -50,9 +53,10 @@ f
 
 function nthLast(arr, nthToLast) {
     // code here
+
 }
 
 
 /* ******************************************************************************** */
 
-// After finishing, start on the Basic13.f=
+// After finishing, start on the Basic13.;]

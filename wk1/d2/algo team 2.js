@@ -22,11 +22,11 @@ console.log(array1[2]);
 // const expectedArr2 = ["a"]
 
 function push(arr, newItem) {
-    // code here
+  // code here
 }
-x = []
-f
-    /* ******************************************************************************** */
+
+
+/* ******************************************************************************** */
 
 /*
     Given an array and an int which represents the position starting from the back,
@@ -49,10 +49,10 @@ f
 // const expected4 = null
 
 function nthLast(arr, nthToLast) {
-    // code here
+  // code here
 }
 
 
 /* ******************************************************************************** */
 
-// After finishing, start on the Basic13.f=
+// After finishing, start on the Basic13.

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0.5px dotted pink;
+}
+body {
+    width: 800px;
+}
+h1 {
+    color: purple;
+}
+
+#mainTitle {
+    color: blue;
+}
+
+.heading {
+    color: green;
+    font-size: small;
+}
+#intro {
+    font-weight: bold;
+}
+p {
+    color: gray;
+    margin-bottom: 20px;
+}
+img {
+    width: 250px;
+    display: inline-block;
+}
+div {
+    border: 0.75px solid black;
+}
+div img {
+    margin: auto;
+}
+/* border-top: 0.75px solid black; */
+
+.imgclass {
+    width: 100%;
+    margin: 20px;
+}

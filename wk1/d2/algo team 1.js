@@ -11,6 +11,7 @@ array1[5] = 4;
 console.log(array1);
 console.log(array1[2]);
 */
+
 // const arr1 = ["a", "b", "c"];
 // const newItem1 = "d";
 // const expected1 = 4
@@ -22,18 +23,22 @@ console.log(array1[2]);
 // const expectedArr2 = ["a"]
 
 function push(arr, newItem) {
-    // code here
+    arr[arr.length] = newItem
+    return arr.length
 }
-x = []
-f
-    /* ******************************************************************************** */
+var arr1 = []
+// arr1 = [2] - length 1
+console.log(push(arr1, 2))
+
+
+/* ******************************************************************************** */
 
 /*
     Given an array and an int which represents the position starting from the back,
     return the nth-to-last element
   */
-// const arr1 = ["a", "b", "c", "d"];
-// const idx1 = 1;
+const arr1 = ["a", "b", "c", "d"];
+const idx1 = 1;
 // const expected1 = "d";
 
 // const arr2 = ["a", "b", "c", "d"]
@@ -50,9 +55,14 @@ f
 
 function nthLast(arr, nthToLast) {
     // code here
+    // pseudo is code but in english
+    // return nthlast index from the arr
+    arr[arr.length - 1 - nthToLast]
 }
+
+var result = nthLast(arr1, idx1)
 
 
 /* ******************************************************************************** */
 
-// After finishing, start on the Basic13.f=
+// After finishing, start on the Basic13.c2

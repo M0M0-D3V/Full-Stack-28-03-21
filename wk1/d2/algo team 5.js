@@ -3,7 +3,7 @@
   Given an array and a new item, add the new item to the back of the array
   return the new length of the array
   hint: What index are you adding a new item at?
-  let array1 = [];
+  let array1 = []; 
 console.log(array1);
 array1[0] = 2;
 console.log(array1);
@@ -23,10 +23,11 @@ console.log(array1[2]);
 
 function push(arr, newItem) {
     // code here
+    console.log()
 }
-x = []
-f
-    /* ******************************************************************************** */
+
+
+/* ******************************************************************************** */
 
 /*
     Given an array and an int which represents the position starting from the back,
@@ -55,4 +56,4 @@ function nthLast(arr, nthToLast) {
 
 /* ******************************************************************************** */
 
-// After finishing, start on the Basic13.f=
+// After finishing, start on the Basic13.
