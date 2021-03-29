@@ -37,7 +37,7 @@ console.log(push(arr1, 2))
     Given an array and an int which represents the position starting from the back,
     return the nth-to-last element
   */
-const arr1 = ["a", "b", "c", "d"];
+// const arr1 = ["a", "b", "c", "d"];  length is 4
 const idx1 = 1;
 // const expected1 = "d";
 
@@ -57,7 +57,9 @@ function nthLast(arr, nthToLast) {
     // code here
     // pseudo is code but in english
     // return nthlast index from the arr
-    arr[arr.length - 1 - nthToLast]
+    return arr[arr.length - nthToLast]
+    // arr[4 - 1]
+    // arr[3]
 }
 
 var result = nthLast(arr1, idx1)
