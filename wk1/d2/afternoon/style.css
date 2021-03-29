@@ -5,14 +5,18 @@
    }
    #wrapper{
     width: 950px;
-    background-color: silver;
+    background-color: #1B335D;
     margin: 0px auto;
     padding: 15px;
    }
    #header{
     min-height: 150px;
-    background-color: green;
+    background-color: #CE3036;
     margin-bottom: 15px;
+    border-radius: 15px
+   }
+   #title{
+       padding:20px;
    }
    #navigation{
     min-height: 300px;
@@ -42,4 +46,15 @@
     background-color: purple;
     margin-top: 20px;
    }
-   
+   h1 {
+    padding-top: 48px;
+    padding-left: 52px;
+   }
+   ul, li {
+       margin-left: 10px;
+   }
+
+   span {
+       color: purple;
+       text-decoration: underline;
+   }
