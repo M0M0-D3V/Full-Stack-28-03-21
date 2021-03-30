@@ -1,0 +1,45 @@
+<body>
+- <header>
+- <main>
+- - <div class="top-section">
+
+- - - <div class="jayne">
+- - - - <image>
+- - - <div class="about">
+- - <div class="bottom-section">
+
+- - - <div class="card">
+- - - - <div class="card-header">
+- - - - <image>
+- - - - <p>
+- - - - <h3 class="technologies">
+- - - - <div class="icons">
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+
+- - - <div class="card">
+- - - - <div class="card-header">
+- - - - <image>
+- - - - <p>
+- - - - <h3 class="technologies">
+- - - - <div class="icons">
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+
+- - - <div class="card">
+- - - - <div class="card-header">
+- - - - <image>
+- - - - <p>
+- - - - <h3 class="technologies">
+- - - - <div class="icons">
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+- - - - - <image>
+- <footer>
+- - <p> <- display block
+- - <image> <p> <image> <p> <image> <p> <image> <p> <- display inline
