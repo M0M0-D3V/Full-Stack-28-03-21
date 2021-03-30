@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    outline: 3px dotted pink;
+    /* outline: 3px dotted pink; */
 }
 /* colors */
 /* header section */
 header {
     background-color: #ffe399;
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 15px;
 }
 main {
@@ -42,17 +42,53 @@ main {
 .image {
     background-color: white;
     height: 183px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 #right {
     width: 730px;
+    margin-left: 6px;
 }
-.subHeader {
+.sub-header {
     background-color: #B6D7A8;
     border-radius: 10px;
     border: 3px solid black;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.inlineB {
+.subcontent {
+    display: inline-block;
+    width: 238px;
+    background-color: #A2C4C9;
+    border: 3px solid black;
+    padding: 10px;
+    margin-right: 2px;
+    vertical-align: top;
+}
+.subcontent h3 {
+    margin-bottom: 2px;
+    text-align: center;
+}
+.subcontent h5 {
+    text-align: center;
+    font-weight: 400;
+}
+.subcontent h4 {
+    margin: 10px 0;
+}
+.subcontent p {
+    margin-bottom: 5px;
+}
+/* footer */
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #9FC5F8;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+/* helper */
+.inline-b {
     display: inline-block;
     vertical-align: top;
 }
