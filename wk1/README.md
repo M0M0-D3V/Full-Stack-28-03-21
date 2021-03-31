@@ -18,11 +18,13 @@
 
 ### EXAM Criteria
 - Prioritize overall layout and structure over details
-- are the html elements and divs set up correctly?
-- save the small details for the end
-- class names are meaningful and all lowercase with hyphen if multiple words
-- use semantic tag names where accessible:
+- Are the html elements and divs set up correctly?
+- Save the small details for the end
+- Class names are meaningful and all lowercase with hyphen if multiple words
+- Use semantic tag names where accessible:
     - `<header>`, `<nav>`, `<main>`, `<footer>`, etc.
+- Run through validator
+- Indentation
 
 ### EXAM TIME
 - start exam before 10am
