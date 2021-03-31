@@ -6,6 +6,8 @@
 }
 header{
     background-color: #333333;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 #title h1 {
     color: lightgray;
@@ -25,10 +27,80 @@ header li {
 header li a {
     color: lightgray;
     text-decoration: none;
+
+}
+#gray-box {
+    width: 330px;
+    height: 300px;
+    background-color: lightgray;
+    padding: 15px;
+}
+#gray-box h1 {
+    color: gray;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 34pt;
+}
+#gray-box p, .content p, .card p {
+    color: gray;
+    margin-bottom: 20px;
+}
+#gray-box a, .content a, .card a {
+    color: orange;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+}
+#black-box {
+    width: 630px;
+    height: 300px;
+    background-color: #333333;
+}
+#black-box h1 {
+    color: lightgray;
+    text-align: center;
+    padding-top: 115px;
+}
+.content h4, .card h4 {
+    color: gray;
+    margin-bottom: 15px;
+}
+.box {
+    background-color: #333333;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+}
+.box p {
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+}
+.rectangle {
+    background-color: #333333;
+    width: 215px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.rectangle p {
+    text-align: center;
+    color: lightgray;
+    font-size: 16pt;
+    padding-top: 36px;
+}
+footer {
+    background-color: #333333;
+    font-size: 9pt;
+    color: lightgray;
+    padding: 20px 0 50px 0;
 }
 .row {
     width: 970px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
+    /* ---top right bottom left */
+
 }
 .flex {
     display: flex;
