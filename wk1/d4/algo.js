@@ -5,6 +5,8 @@
   since -1 is not a valid index, this indicates it couldn't be found
   If the smallest integer occurs more than once, return the index of the first one.
 */
+// num = 1 <- assignment
+// num == 1 <- comparison
 
 // const nums1 = [5, 2, 3]
 // const expected1 = 1

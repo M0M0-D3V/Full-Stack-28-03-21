@@ -1,0 +1,1 @@
+html, css, javascript, element, selector, for loop, child, parent, sibling, request, response, http, url, display, inline, block, text, font, color, background, vertical, center, middle, space between, justify content, vscode, font, ordered list, unordered list, list item, table, table data, localhost, server, image, source, link, stylesheet, script, 

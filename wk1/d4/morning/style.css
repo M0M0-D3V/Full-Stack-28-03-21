@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 0.5px dotted pink; */
+}
+header{
+    background-color: #333333;
+}
+#title h1 {
+    color: lightgray;
+    
+}
+#title p {
+    color: lightgray;
+}
+header ul {
+    background-color: #111111;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 17px 10px 0px 10px;
+}
+header li a {
+    color: lightgray;
+    text-decoration: none;
+}
+.row {
+    width: 970px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
