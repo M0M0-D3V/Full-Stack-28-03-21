@@ -15,3 +15,16 @@
 ### Must Pass in order to unlock Python stack
 - Can retake Exam 2 more times
     - Different Exam each retake
+
+### EXAM Criteria
+- Prioritize overall layout and structure over details
+- are the html elements and divs set up correctly?
+- save the small details for the end
+- class names are meaningful and all lowercase with hyphen if multiple words
+- use semantic tag names where accessible:
+    - `<header>`, `<nav>`, `<main>`, `<footer>`, etc.
+
+### EXAM TIME
+- start exam before 10am
+- check in with instructor or TA before leaving
+- meet back at 4pm to talk about your experience (optional)
