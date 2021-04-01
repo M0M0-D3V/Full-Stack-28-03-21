@@ -1,6 +1,6 @@
 # EXAM DAY! :star: BETAW FEK!! :star:
 
-## THE EXAM CODE IS :point_right: `     ` :point_left:
+## THE EXAM CODE IS :point_right: `8D78b438` :point_left:
 
 ## You got this!
 - :muscle: Power Pose
@@ -21,6 +21,7 @@
 - Download exam assets and take screenshot or copy instruction text (in the event of an internet disconnection)
 - Open book / Open notes / Gan use google
 - NO HELPING EACH OTHER. It's easy to spot shared code. DO NOT share exam info with those who haven't taken it.
+- Submit a zip file for your exam. VIDEO IS NOT REQUIRED
 - If you have a problem uploading your project zip, email it to mhong@codingdojo.com, aabbad_p@mcit.gov.sa. Or Send it to us in MatterMost
 
 ## DURING EXAM
