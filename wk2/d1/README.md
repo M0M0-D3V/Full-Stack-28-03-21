@@ -1,31 +1,18 @@
-# JAVASCRIPT
+### Algo Tips:
+#### When solving algorithms, use RIOTWALK..
+- R - Repeat the problem
+- I - Input - What are the Inputs?
+- O - Output - What is the expected Output?
+- T - Test the code
+- WALK - Walkthrough the code
 
-## What is JavaScript? And why do you need to know it?
-### :one: of the **Big 3 Languages** of the web
-- HTML defines :arrow_right: elements
-- CSS styles :arrow_right: elements
-- JS for behavior of :arrow_right: elements
-### Interpreted Language
-- reads code and rearrange to run easier
-- run line by line (top :arrow_up: down :arrow_down:)
-### Event-Driven
-- Listener
-- List of instructions
-- Event
+### Meet With Your Teams
+- Discuss solution and strategy together
+- One person to host a LiveShare on VSCode
+    - If LiveShare does not work:
+        - Share Screen with each other
 
-## Key Concepts
-- Review:
-    - variables
-    - data types:
-        - integer
-        - string
-        - bool
-        - array
-        - objects
-    - if/else conditions
-    - loops:
-        - for
-        - while
-        - do / while
-    - functions / methods
-    - T diagram
+### Upkeep
+- Keep a copy of solutions in an organized place.
+- Write comments and pseudo code to understand what and how the solution works
+- Doing these things will help you stay sharp!
