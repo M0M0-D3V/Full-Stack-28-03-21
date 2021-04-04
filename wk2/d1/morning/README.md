@@ -30,6 +30,8 @@
         - do / while
     - functions / methods
     - T diagram
+### The simple key concepts are the basic tools in your toolbox
+- built in functions v creating functions using basics
 
 ## Arrays
 - All Review
