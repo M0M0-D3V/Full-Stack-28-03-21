@@ -12,7 +12,7 @@
 - Think of it as extra coding practice or job training
 - Similar to coding challenge for web developer job.
 
-## TOMORROW IS A U.S. HOLIDAY - EASTER SUNDAY
+## DAY2 IS A U.S. HOLIDAY - EASTER SUNDAY
 
 1. No Zoom Meeting
 2. Lecture will be pre-recorded available on Vimeo
