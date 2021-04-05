@@ -18,34 +18,33 @@
 // const expected2 = [1, 2, 3, "a", "b"]
 
 function concat(arr1, arr2) {
-    // your code here
-  }
+  // your code here
+}
+
+// const arrA1 = ["a", "b"]
+// const arrB1 = [1, 2, 3]
+// concat(arrA1, arrB1)
+
+/* ******************************************************************************** */
+
+/*
+    From zoom interview with student in year 2020
   
-  // const arrA1 = ["a", "b"]
-  // const arrB1 = [1, 2, 3]
-  // concat(arrA1, arrB1)
-  
-  /* ******************************************************************************** */
-  
-  /*
-      From zoom interview with student in year 2020
-    
-      Given one array,
-      return a new array that contains all of the original items duplicated twice
-    */
-  
-  // const arr1 = ["a", "b", "c"];
-  // const expected1 = ["a", "b", "c", "a", "b", "c"];
-  
-  // const arr2 = ["a"];
-  // const expected2 = ["a", "a"];
-  
-  // const arr3 = [];
-  // const expected3 = [];
-  
-  function concatArrWithSelf(arr) {
-    // your code here
-  }
-  // const arrA3 = ["a", "b"]
-  // console.log(concatArrWithSelf(arrA3))
-  
+    Given one array,
+    return a new array that contains all of the original items duplicated twice
+  */
+
+// const arr1 = ["a", "b", "c"];
+// const expected1 = ["a", "b", "c", "a", "b", "c"];
+
+// const arr2 = ["a"];
+// const expected2 = ["a", "a"];
+
+// const arr3 = [];
+// const expected3 = [];
+
+function concatArrWithSelf(arr) {
+  // your code here
+}
+// const arrA3 = ["a", "b"]
+// console.log(concatArrWithSelf(arrA3))

@@ -1,7 +1,9 @@
 ## Hello everyone!
 Here are some notes today to get started:
 - Algos are in the algo.js file
-- morning folder will contain some notes and code to accompany the morning video about DOM
+- `morning` folder has notes and code for the morning video about DOM
+- `afternoon` folder has notes and code for the afternoon video about more JS Functions
+- and lastly an `extra` folder with notes and code for something to intro tomorrow's jQuery
 
 ### Algo Tips:
 #### When solving algorithms, use RIOTWALK..
