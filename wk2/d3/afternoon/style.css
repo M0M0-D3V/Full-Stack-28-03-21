@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  border: 10px solid gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  /* width: fit-content; */
+}
+#arena-select,
+#player-select {
+  height: 250px;
+  width: 600px;
+  margin: 20% auto 20% auto;
+  background-color: gray;
+  padding: 20px;
+  border: 8px solid darkgray;
+  border-radius: 10px;
+}
+#player-select {
+  display: none;
+}
+h1 {
+  text-align: center;
+  color: goldenrod;
+  text-shadow: 3px 2px lightgray;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+#players {
+  display: flex;
+}

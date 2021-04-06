@@ -1,6 +1,6 @@
 # Dojo Arena
 
-##### Extra Credit Assignment Instructions:
+### :star: Extra Credit Assignment Instructions:
 
 1. When the document loads, display a game window with a "Select Arena" module with 6 different arena options. When the user hovers over each button, the correct image of the arena should be displayed onto the game window. **_Refer to Wireframe 1_**
 
