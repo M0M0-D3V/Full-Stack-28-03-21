@@ -40,7 +40,7 @@ function removeAt(arr, idx) {
       No built in methods
     */
 
-// const nums1 = [1, 5, 2, 9];
+// const nums1 = [4, 5, 2, 9];
 // const expected1 = [1, 5, 2, 9];
 
 function minToFront(nums) {

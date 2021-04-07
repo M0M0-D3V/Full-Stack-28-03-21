@@ -32,7 +32,7 @@
 - Team 7 - CodingNinjas      @ 3:30pm
 
 ## As a team, nominate 1 member to recognize for this week's Champion
-- send me a message on MatterMost who your team chose
+- write a message in your Team Channel who you nominate
 
 ## Activity Day at 11am!
 - We will have a couple rounds of sketchful.io again (:

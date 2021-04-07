@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var pokemonImgUrl = data.sprites.front_default;
         pokemon.src = pokemonImgUrl;
         body.appendChild(pokemon);
-      });
+      })
+      .catch((error) => {
+        console.log(error)
+      // run another code
+    });
   }
 });
