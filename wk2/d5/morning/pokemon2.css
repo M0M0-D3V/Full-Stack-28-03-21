@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0.5px dotted pink;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+}
+#pokedex {
+  width: 60%;
+  height: 500px;
+  overflow: scroll;
+}

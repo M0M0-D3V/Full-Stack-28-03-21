@@ -5,9 +5,9 @@
 
 // this given array has a length of 3 because it has 3 arrays as items
 // const twoDimArr1 = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
+//   [1, 2, 3],  // [0][i]
+//   [4, 5, 6],  // [1][i]
+//   [7, 8, 9],  // [2][i]
 // ]
 // const expected1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 

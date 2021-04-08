@@ -1,5 +1,6 @@
 console.log("We made it!");
 document.addEventListener("DOMContentLoaded", function () {
+  // this is Vanilla JavaScript
   console.log("Hey our document is ready!");
   for (var i = 1; i <= 150; i++) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
