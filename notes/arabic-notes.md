@@ -50,7 +50,7 @@ Chris's(كريس) Hellowaa, Ma sha alah
 | Welcome again - plural          | Ahlan bec om mojadadan        |
 | Sweet dreams                    | Ahalam saaida                 |
 | I will see you tomorrow (slang) | Ashofkom bukra                |
-| I willee you tomorrow           | Araka Ghadan                  |  
+| I willee you tomorrow           | Araka Ghadan                  |
 | I will see you later            | Ashofkom laheqan or mojadanan |
 | Enjoy your weekend              | Etla saida                    |
 | hello my friends                | marhaba ya asdeqaee           |
@@ -102,12 +102,13 @@ Chris's(كريس) Hellowaa, Ma sha alah
 
 ## Compliments
 
-| English      | Arabic       |
-| :----------- | :----------- |
-| Good luck    | Betawfek     |
-| Good job     | Momtaz       |
-| That is good | Hatha jayyed |
-| Wow          | Mashaallah   |
+| English | Arabic | |
+| :----------- | :----------- | |
+| Good luck | Betawfek | |
+| Good job | Momtaz | |
+| That is good | Hatha jayyed | |
+| Wow | Mashaallah | |
+| Very good! | Mara helwo |مره حلو |
 
 ## Words
 
@@ -209,6 +210,7 @@ Arbaic - PC keyboard
 - Is there anything I can help you with?
 
 ## Other Words
+
 | English | Arabic  |
 | :------ | :-----: |
 | Bicycle | Diraja  |
