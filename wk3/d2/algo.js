@@ -25,22 +25,21 @@
 // const separator5 = ", "
 // const expected5 = ""
 
-function join(arr, separator = ", ") {
-    // code here
+function join(arr, separator) {
+  // code here
 }
-  /*****************************************************************************/
-  
-  /*
+/*****************************************************************************/
+
+/*
     Book Index
   
     Given an arry of ints representing page numbers
     return a string with the page numbers formatted as page ranges when the nums span a consecutive range
   */
-  
-  // const nums1 = [1, 13, 14, 15, 37, 38, 70];
-  // const expected1 = "1, 13-15, 37-38, 70";
-  
-  function bookIndex(pageNums) {
-    // code here
-  }
-  
+
+// const nums1 = [1, 13, 14, 15, 37, 38, 70];
+// const expected1 = "1, 13-15, 37-38, 70";
+
+function bookIndex(pageNums) {
+  // code here
+}
