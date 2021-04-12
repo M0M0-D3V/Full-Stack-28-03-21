@@ -34,6 +34,10 @@ class Citizen:
     def __init__(self, name="Citizen", home="Castle"):
         self.name = name
         self.home = home
+    
+    def build_wall(self, castle):
+        # create a way to restore castle wall to full health
+        pass
 
 
 class Soldier(Citizen):
@@ -79,7 +83,7 @@ class Troop:
         pass
 
     def hunt_dinosaur(self, dinosaur):
-        # [] Send the troop out to attack a direct dinosaur, calcuate damage. Bonus: use random library
+        # [] Send the troop out to attack a direct dinosaur, calcuate damage from all soldiers. Bonus: use random library
         pass
 
     def protect_castle(self, castle):
