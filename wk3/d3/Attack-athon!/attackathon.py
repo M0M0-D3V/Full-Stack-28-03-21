@@ -20,9 +20,9 @@
 # 7. Fortify the Castle defense by adding more Citizens and Troops
 
 
-#### Do as much as you'd like, I'd like each member to instantiate at least 3 Objects, create at least 1 class and method, and use at least 1 method.
-#### hope you enjoy this Attackathon!:star2:
-#*****************************************************
+# Do as much as you'd like, I'd like each member to instantiate at least 3 Objects, create at least 1 class and method, and use at least 1 method.
+# hope you enjoy this Attackathon!:star2:
+# *****************************************************
 
 import random
 
@@ -34,7 +34,7 @@ class Citizen:
     def __init__(self, name="Citizen", home="Castle"):
         self.name = name
         self.home = home
-    
+
     def build_wall(self, castle):
         # create a way to restore castle wall to full health
         pass
@@ -90,13 +90,19 @@ class Troop:
         # [] create a method for all Troops/Soldiers to protect the castle.
         pass
 
-#******************** CASTLE **********************
+# ******************** CASTLE **********************
+
+
 class Castle:
     # [] use this Castle class to create at least 1 Castle where Citizens and Soldiers live. Create a troops (attribute) to take a list of Troops
     def __init__(self, name="Castle", wall_health=1500, citizens=[]):
         self.name = name
         self.wall_health = wall_health
         self.citizens = citizens
+        # self.troops = troops
+
+    def mobilize_troops(self):
+        pass
 
 # **************** DINOSAUR ********************
 
