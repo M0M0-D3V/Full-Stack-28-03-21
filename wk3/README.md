@@ -2,10 +2,8 @@
 
 ## Recap
 
-## :one: on :one: Continue This Week
+## :one: on :one: Continue This Week - Mandatory by end of Next week
 
 - Sign up on my Calendly - https://calendly.com/mhong-fullstack/15min
-
-
 
 ## WEEK 2 CHAMPION IS... :star2:`Maram Alqhtani`:star2:
