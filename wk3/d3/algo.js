@@ -19,7 +19,7 @@
 // const str3 = "a"
 // const expected3 = "a"
 
-// const str4 = "bbcc"
+// const str4 = "bbcc"  // b2c2  -> length is both 4
 // const expected4 = "bbcc"
 
 function encodeStr(str) {
