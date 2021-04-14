@@ -158,22 +158,22 @@ hezam aswad
 
 ## Questions/Phrases
 
-| English                                                               |                        Arabic                         |
-| :-------------------------------------------------------------------- | :---------------------------------------------------: |
+| English                                                               |                        Arabic                                 |
+| :-------------------------------------------------------------------- | :------------------------------------------------------------: |
 | Today we will build our first application using the Django Framework. | Alyawm sawfa nabda’a awwal tatbeek be estikdam Django |
 | Does anyone have any interesting plans this weekend?                  | Hal endakom khotat le hatha al esbua? or Wsh alkh6ah  |
 | Did that answer your question?                                        |              hal hatha jawab ala swalek?              |
 | Does this make sense?                                                 |                  hal lehatha maenaa?                  |
 | Are there any questions?                                              |                     Fee ay soaal                      |
-| How are you?                                                          |                      Kaef halkum                      |
-| What did you do this weekend?                                         |                matha fahlt fe alejaza?                |
+| How are you?                                                          |                      Kaef halkum                        |
+| What did you do this weekend?                                         |                matha fahlt fe alejaza?                         |
 | Why are you still here?                                               |                   lematha ant hona?                   |
 | Where is the restroom?                                                |                   ayn dorat almyah?                   |
-| I want to order chicken.                                              |                 ored an atlob aldajaj                 |
-| I will go to lunch                                                    |                  Al an adhab alghada                  |
-| Enjoy your lunch                                                      |                       baileafia                       |
-| Can you please delay the exam?                                        |              Mumkin te adjel alekhetbar               |
-
+| I want to order chicken.                                              |                 ored an atlob aldajaj                            |
+| I will go to lunch                                                    |                  Al an adhab alghada                           |
+| Enjoy your lunch                                                      |                       baileafia                                |
+| Can you please delay the exam?                                        |              Mumkin te adjel alekhetbar                         |
+| Hello World                                                           | مرحبا أيها العالم ahln ayha alalam, Marhaba ayouha al alalam   |
 ## Writing
 
 Arbaic - PC keyboard
@@ -216,7 +216,5 @@ Arbaic - PC keyboard
 | Bicycle | Diraja  |
 | My bike | Dirajat |
 
-Hello World
-مرحبا أيها العالم ahln ayha alalam, Marhaba ayouha al alalam
 
 

@@ -2,7 +2,7 @@
 
 ## Recap
 
-## :one: on :one: Continue This Week - Mandatory by end of Next week
+## :one: on :one: Continue - Mandatory by end of Next week
 
 - Sign up on my Calendly - https://calendly.com/mhong-fullstack/15min
 

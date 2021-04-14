@@ -5,8 +5,8 @@
     - palindrome = string that is same forwards and backwards
 
   Do not ignore spaces, punctuation and capitalization
- */
-
+ */ //           >>  <<
+//               v   v
 // const str1 = "a x a"
 // const expected1 = true
 
@@ -30,6 +30,7 @@ function isPalindrome(str) {
     
     For this challenge, we will look not only at the entire string provided, but also at the substrings within it. Return the longest palindromic substring.
     
+    Built in methods: .slice() .substring()
     Strings longer or shorter than complete words are OK.
     
     All the substrings of "abc" are:
