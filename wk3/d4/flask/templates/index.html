@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marhaban</title>
+  </head>
+  <body>
+    <h1>means hello</h1>
+    <p>right it is so much easier!</p>
+
+    <h3>My Flask Template</h3>
+    <p>Phrase: {{ phrase }}</p>
+    <p>Times: {{ times }}</p>
+
+    {% for x in range(0,times): %}
+    <p>{{ phrase }}</p>
+    {% endfor %} {% if phrase != "hello" %}
+    <p>The phrase says hello</p>
+    {% endif %}
+    <!--  -->
+
+    {% for x in range(0, users|length) %}
+    <p>person's name is: {{ users[x]['first_name'] }}</p>
+    <p>person's last name is: {{ users[x]['last_name'] }}</p>
+    {% endfor %}
+    <!--  -->
+    {% for x in users %}
+    <p>person's name is: {{ x['first_name'] }}</p>
+    <p>person's last name is: {{ x['last_name'] }}</p>
+    {% endfor %}
+  </body>
+</html>
