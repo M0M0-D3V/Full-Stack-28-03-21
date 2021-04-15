@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}" /> -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey it's Chewbacca</title>
+  </head>
+  <body>
+    <h1>Welcome Chewbacca</h1>
+    <p>we know this is a p tag</p>
+    <p>May the force be with you</p>
+
+    <h1>Info From Server:</h1>
+    <p>Name: {{name}}</p>
+    <p>Color: {{favorite_color}}</p>
+    <p>Pets</p>
+    <ul>
+      {% for pet in pets %}
+      <li>{{pet}}</li>
+      {% endfor %}
+    </ul>
+    <p>our favorite pet: {{pets.0}}</p>
+
+    <h3>THE TIME IS! {{ time }}</h3>
+  </body>
+</html>

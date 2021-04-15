@@ -1,5 +1,10 @@
 # Welcome to End of Python Week 1!
 
+## Couple reminders...
+
+- nominate in your team channel for champion this week
+- announce today in afternoon
+
 ## So that means...
 
 - 2 weeks from today is Exam! :scream:
