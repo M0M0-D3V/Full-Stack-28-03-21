@@ -30,8 +30,16 @@ function zipArraysIntoMap(keys, values) {
   return a new object / dict that has the keys and the values swapped so that the keys become the values and the values become the keys
 */
 
-// const obj1 = { name: "Zaphod", charm: "high", morals: "dicey" };
-// const expected1 = { Zaphod: "name", high: "charm", dicey: "morals" };
+// const obj1 = {
+//   name: "Zaphod",
+//   charm: "high",
+//   morals: "dicey"
+// };
+// const expected1 = {
+//   Zaphod: "name",
+//   high: "charm",
+//   dicey: "morals"
+// };
 
 function invertObj(obj) {
   // code here
