@@ -17,6 +17,22 @@ function stringDedupe(str) {
 
 /*****************************************************************************/
 /*
+    Given 2 strings, one longer than another
+    return boolean if the shorter string is found inside the longer string
+  */
+
+// is longStr contains compareStr?
+
+// const strToLookAt = "helloo";
+// const strToCheck = "oo";
+// const expected3 = true
+
+function includes(compareStr, longStr) {
+  // code here
+}
+
+/*****************************************************************************/
+/*
       Given a string containing space separated words
       Reverse each word in the string.
     
