@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>number game</title>
+  </head>
+  <body>
+    {% if request.session.number == guess %}
+    <div>only when this if statement is true</div>
+    {% endif %} {% if request.session.number > guess %}
+    <div>only when this if statement is true</div>
+    {% endif %} {% if request.session.number < guess %}
+    <div>only when this if statement is true</div>
+    {% endif %}
+  </body>
+</html>
