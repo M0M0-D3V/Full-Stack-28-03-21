@@ -20,7 +20,9 @@
 // const expected4 = false
 // // Explanation: same number of opens and closes but the 2nd closing closes nothing
 
-function parensValid(str) {}
+function parensValid(str) {
+  // code here
+}
 
 /*****************************************************************************/
 
@@ -39,4 +41,6 @@ function parensValid(str) {}
 // const str3 = "A(1)s[O (n]0{t) 0}k";
 // const expected3 = false;
 
-function bracesValid(str) {}
+function bracesValid(str) {
+  // code here
+}
