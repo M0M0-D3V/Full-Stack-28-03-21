@@ -6,4 +6,10 @@
 
 - Sign up on my Calendly - https://calendly.com/mhong-fullstack/15min
 
+## Other Reminders
+
+- Practice being accountable and available with your team
+- 20 Minute Rule
+- Have Fun!
+
 ## CONGRATULATIONS TO WEEK 3 CHAMPION :star2: `Reem Almabadi` :star2:

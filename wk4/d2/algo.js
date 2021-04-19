@@ -8,12 +8,25 @@
 // const str1 = "abcABC"
 // const expected1 = "abcABC"
 
-// const str2 = "helloo"
+const str2 = "hellolo";
 // const expected2 = "helo"
 
 function stringDedupe(str) {
   // code here
+  var newStr = "";
+  var hashSeen = {};
+  for (var i = 0; i < str.length; i++) {
+    var character = str[i];
+    if (!hashSeen[character]) {
+      newStr += character;
+      console.log(hashSeen);
+    }
+    hashSeen[character] = 1;
+  }
+  return newStr;
 }
+var result = stringDedupe(str2);
+console.log(result);
 
 /*****************************************************************************/
 /*
