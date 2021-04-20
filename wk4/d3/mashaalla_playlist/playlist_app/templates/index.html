@@ -8,5 +8,40 @@
   </head>
   <body>
     <h1>Welcome to Mashaalla Playlist</h1>
+    <h3>Enter new Artist here</h3>
+    <form action="/process_artist" method="POST">
+      {% csrf_token %}
+      <p>Name<input type="text" name="name" /></p>
+      <p>Age<input type="number" name="age" /></p>
+      <button type="submit">Submit New Artist</button>
+    </form>
+    <h3>Enter new Song</h3>
+    <form action="/process_song" method="POST">
+      {% csrf_token %}
+      <p>Title<input type="text" name="title" /></p>
+      <p>Youtube Link<input type="text" name="yt_link" /></p>
+      <p>Select Artist:</p>
+      <select name="singer">
+        {% for artist in all_artists %}
+        <option value="{{artist.id}}">{{artist.name}}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">Submit new Song</button>
+    </form>
+    {% for artist in all_artists %}
+    <ul>
+      <li>
+        {{ artist.name }}
+        <ul>
+          {% for song in artist.songs.all %}
+          <li>
+            {{song.title}} -
+            <a href="{{ song.youtube_link }}">link to youtube</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+    {% endfor %}
   </body>
 </html>

@@ -23,7 +23,7 @@ class Song(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"Song {self.id}- {self.title} - by {self.artist.name}"
+        return f"Song {self.id}- {self.title} - by {self.singer.name}"
 
 # Notes below
 # Artist.objects.create(name="", age=)
@@ -34,5 +34,4 @@ class Song(models.Model):
 
 # artist1 = Artist.objects.get(id=1)
 # # Song(title="", youtube_link="")
-# Song(singer=artist1, title="blank space",
-#      youtube_link="https://www.youtube.com/watch?v=e-ORhEE9VVg")
+# Song.objects.create(singer=artist1, title="blank space", youtube_link="https://www.youtube.com/watch?v=e-ORhEE9VVg")
