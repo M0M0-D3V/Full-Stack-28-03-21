@@ -27,7 +27,7 @@
         <th>Description</th>
         <th>Actions</th>
       </thead>
-      {% for hero in all_heroes %}
+      {{all_heroes|length}} {% for hero in all_heroes %}
       <tr>
         <td>{{ hero.id }}</td>
         <td><img src="{{ hero.image }}" alt="hero image" /></td>
