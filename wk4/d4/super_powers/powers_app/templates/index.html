@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashaalla Powers!</title>
+  </head>
+  <body>
+    <h1>Welcome Heroes!</h1>
+    <a href="/powers"><button>go to Powers Page</button></a>
+    <h3>Create a new Hero</h3>
+    <form action="/process_hero" method="POST">
+      {% csrf_token %}
+      <p>Name<input type="text" name="name" /></p>
+      <p>Image<input type="text" name="img" /></p>
+      <p>Description<input type="text" name="desc" /></p>
+      <button type="submit">Submit new Hero</button>
+    </form>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </thead>
+      {% for hero in all_heroes %}
+      <tr>
+        <td>{{ hero.id }}</td>
+        <td><img src="{{ hero.image }}" alt="hero image" /></td>
+        <td>{{ hero.name }}</td>
+        <td>{{ hero.description }}</td>
+        <td>
+          <a href="/heroes/{{ hero.id }}"><button>View</button></a>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>

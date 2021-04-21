@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashaalla Powers!</title>
+  </head>
+  <body>
+    <h1>Welcome to your new Powersssss!</h1>
+    <h3>Create a new Power</h3>
+    <form action="/process_power" method="POST">
+      {% csrf_token %}
+      <p>Name<input type="text" name="name" /></p>
+      <p>Image<input type="text" name="img" /></p>
+      <p>Description<input type="text" name="desc" /></p>
+      <button type="submit">Submit new Power</button>
+    </form>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </thead>
+
+      {% for power in all_powers %}
+      <tr>
+        <td>{{ power.id }}</td>
+        <td><img src="{{ power.image }}" alt="power image" /></td>
+        <td>{{ power.name }}</td>
+        <td>{{ power.description }}</td>
+        <td>
+          <a href="/powers/{{ power.id }}"><button>View</button></a>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>

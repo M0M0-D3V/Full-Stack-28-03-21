@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashaalla Powers</title>
+  </head>
+  <body>
+    <h1>Viewing {{this_hero.name}}</h1>
+    <p>ID: {{ this_hero.id }}</p>
+    <p>Description: {{ this_hero.description }}</p>
+    <p>Image: <img src="{{ this_hero.image }}" alt="hero image" /></p>
+    <h3>Superpowers</h3>
+    {% for power in this_hero.powers.all %}
+    <ul>
+      <li>{{power.name}}</li>
+    </ul>
+    {% endfor %}
+    <form action="/process_add/{{this_hero.id}}" method="POST">
+      {% csrf_token %}
+      <select name="power">
+        {% for power in all_powers %}
+        <option value="{{power.id}}">{{power.name}}</option>
+        {% endfor %}
+      </select>
+      <button type="submit">add power to hero</button>
+    </form>
+  </body>
+</html>
