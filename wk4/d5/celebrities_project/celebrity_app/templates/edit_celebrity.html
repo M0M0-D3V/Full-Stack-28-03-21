@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrities project</title>
+  </head>
+  <body>
+    <h1>The famous!</h1>
+    <h3>Edit Celebrity: {{celebrity.name}}</h3>
+    <form action="/celebrities/{{celebrity.id}}/update" method="POST">
+      {% csrf_token %}
+      <p>Name:<input type="text" name="name" value="{{celebrity.name}}" /></p>
+      <p>
+        Image:<input type="text" name="image" value="{{celebrity.image}}" />
+      </p>
+      <p>
+        Occupation:<input
+          type="text"
+          name="job"
+          value="{{celebrity.occupation}}"
+        />
+      </p>
+      <button type="submit">Submit</button>
+      <!-- <button type="submit" name="update" value="{{id}}" >Submit</button> -->
+    </form>
+  </body>
+</html>

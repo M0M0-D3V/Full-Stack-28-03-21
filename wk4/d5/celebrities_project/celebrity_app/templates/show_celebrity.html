@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrities</title>
+  </head>
+  <body>
+    <a href="/celebrities">go back</a>
+    <h1>all about {{ celebrity.name }}</h1>
+    <img src="{{celebrity.image}}" alt="image" />
+    <p>Occupation: {{ celebrity.occupation }}</p>
+    <p>Last Updated: {{ celebrity.updated_at }}</p>
+    <a href="/celebrities/{{celebrity.id}}/edit">Edit</a> | Delete
+  </body>
+</html>

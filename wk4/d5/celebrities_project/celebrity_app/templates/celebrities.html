@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome {{ request.session.name }}</h1>
+    <h1>Welcome {{ user_name }}</h1>
+    <h3>List of Celebrities here</h3>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Occupation</th>
+        <th>Action</th>
+      </thead>
+      {% for celebrity in all_celebrities %}
+      <tr>
+        <td>{{celebrity.id}}</td>
+        <td>{{celebrity.name}}</td>
+        <td><img src="{{celebrity.image}}" alt="celebrity img" /></td>
+        <td>{{celebrity.occupation}}</td>
+        <td>
+          <a href="/celebrities/{{celebrity.id}}">Show</a> |
+          <a href="/celebrities/{{celebrity.id}}/edit">Edit</a> |
+          <form action="/celebrities/{{celebrity.id}}/delete" method="POST">
+            {% csrf_token %}
+            <a href=""><button type="submit">Delete</button></a>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+    <a href="/celebrities/create">Create new Celebrity</a>
+    <a href="/logout">logout</a>
+  </body>
+</html>
