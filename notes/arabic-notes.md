@@ -99,16 +99,17 @@ Chris's(كريس) Hellowaa, Ma sha alah
 | oh like that in the past | yanni can                                  |
 | oh look at this          | Yanni chef                                 |
 | maybe                    | Mumkin                                     |
+| terrible                 | Fadea                                      |
 
 ## Compliments
 
-| English | Arabic | |
-| :----------- | :----------- | |
-| Good luck | Betawfek | |
-| Good job | Momtaz | |
-| That is good | Hatha jayyed | |
-| Wow | Mashaallah | |
-| Very good! | Mara helwo |مره حلو |
+| English      |    Arabic    |         |
+| :----------- | :----------: | ------: |
+| Good luck    |   Betawfek   |         |
+| Good job     |    Momtaz    |         |
+| That is good | Hatha jayyed |         |
+| Wow          |  Mashaallah  |         |
+| Very good!   |  Mara helwo  | مره حلو |
 
 ## Words
 
@@ -158,42 +159,43 @@ hezam aswad
 
 ## Questions/Phrases
 
-| English                                                               |                        Arabic                                 |
-| :-------------------------------------------------------------------- | :------------------------------------------------------------: |
-| Today we will build our first application using the Django Framework. | Alyawm sawfa nabda’a awwal tatbeek be estikdam Django |
-| Does anyone have any interesting plans this weekend?                  | Hal endakom khotat le hatha al esbua? or Wsh alkh6ah  |
-| Did that answer your question?                                        |              hal hatha jawab ala swalek?              |
-| Does this make sense?                                                 |                  hal lehatha maenaa?                  |
-| Are there any questions?                                              |                     Fee ay soaal                      |
-| How are you?                                                          |                      Kaef halkum                        |
-| What did you do this weekend?                                         |                matha fahlt fe alejaza?                         |
-| Why are you still here?                                               |                   lematha ant hona?                   |
-| Where is the restroom?                                                |                   ayn dorat almyah?                   |
-| I want to order chicken.                                              |                 ored an atlob aldajaj                            |
-| I will go to lunch                                                    |                  Al an adhab alghada                           |
-| Enjoy your lunch                                                      |                       baileafia                                |
-| Can you please delay the exam?                                        |              Mumkin te adjel alekhetbar                         |
-| Hello World                                                           | مرحبا أيها العالم ahln ayha alalam, Marhaba ayouha al alalam   |
+| English                                                               | Arabic                                                       |
+| :-------------------------------------------------------------------- | :----------------------------------------------------------- |
+| Today we will build our first application using the Django Framework. | Alyawm sawfa nabda’a awwal tatbeek be estikdam Django        |
+| Does anyone have any interesting plans this weekend?                  | Hal endakom khotat le hatha al esbua? or Wsh alkh6ah         |
+| Did that answer your question?                                        | hal hatha jawab ala swalek?                                  |
+| Does this make sense?                                                 | hal lehatha maenaa?                                          |
+| Are there any questions?                                              | Fee ay soaal                                                 |
+| How are you?                                                          | Kaef halkum                                                  |
+| What did you do this weekend?                                         | matha fahlt fe alejaza?                                      |
+| Why are you still here?                                               | lematha ant hona?                                            |
+| Where is the restroom?                                                | ayn dorat almyah?                                            |
+| I want to order chicken.                                              | ored an atlob aldajaj                                        |
+| I will go to lunch                                                    | Al an adhab alghada                                          |
+| Enjoy your lunch                                                      | baileafia                                                    |
+| Can you please delay the exam?                                        | Mumkin te adjel alekhetbar                                   |
+| Hello World                                                           | مرحبا أيها العالم ahln ayha alalam, Marhaba ayouha al alalam |
+
 ## Writing
 
 Arbaic - PC keyboard
 
-| English          | Phonetic | Arabic   | PC Keys |
-| :--------------- | :------- | -------- | ------- |
-| hello            | marhaba  | مرحبا    | lvpfh   |
-| hehehe (joking)  | hehehe   | هههههه   | iiiii   |
+| English          | Phonetic |   Arabic | PC Keys |
+| :--------------- | :------- | -------: | ------- |
+| hello            | marhaba  |    مرحبا | lvpfh   |
+| hehehe (joking)  | hehehe   |   هههههه | iiiii   |
 | hahaha (serious) | hahaha   | هاهاهاها | ihihih  |
-| chris            | chris    | كريس     | ;vds    |
-| monica           | monica   | مونيكا   | l,kd;h  |
-| ooopsie          | ooopsie  | اوبسي    | h,fsd   |
+| chris            | chris    |     كريس | ;vds    |
+| monica           | monica   |   مونيكا | l,kd;h  |
+| ooopsie          | ooopsie  |    اوبسي | h,fsd   |
 
 ## Alphabet
 
 | English Letter | Arabic |
-| :------------- | :----: |
-| a              |   ا    |
-| b              |   ب    |
-| c              |   س    |
+| :------------- | -----: |
+| a              |      ا |
+| b              |      ب |
+| c              |      س |
 
 ## Need translations
 
@@ -212,9 +214,6 @@ Arbaic - PC keyboard
 ## Other Words
 
 | English | Arabic  |
-| :------ | :-----: |
+| :------ | :------ |
 | Bicycle | Diraja  |
 | My bike | Dirajat |
-
-
-

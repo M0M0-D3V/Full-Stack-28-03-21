@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrities project</title>
+  </head>
+  <body>
+    <h1>The famous!</h1>
+    <h3>Create new Celebrity</h3>
+    <form action="/celebrities/new" method="POST">
+      {% csrf_token %}
+      <p>Name:<input type="text" name="name" /></p>
+      <p>Image:<input type="text" name="image" /></p>
+      <p>Occupation:<input type="text" name="job" /></p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
