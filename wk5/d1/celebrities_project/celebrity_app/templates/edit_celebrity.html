@@ -24,8 +24,25 @@
           value="{{celebrity.occupation}}"
         />
       </p>
+      <p>
+        Debut Date:<input
+          type="date"
+          name="debut"
+          value="{{celebrity.debut_date|date:'Y-m-d'}}"
+        />
+      </p>
       <button type="submit">Submit</button>
       <!-- <button type="submit" name="update" value="{{id}}" >Submit</button> -->
     </form>
+
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>
+        {{ message }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </body>
 </html>

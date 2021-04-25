@@ -13,6 +13,7 @@
     <h1>all about {{ celebrity.name }}</h1>
     <img src="{{celebrity.image}}" alt="image" />
     <p>Occupation: {{ celebrity.occupation }}</p>
+    <p>Debut Date: {{ celebrity.debut_date|date:'Y-F-d' }}</p>
     <p>Last Updated: {{ celebrity.updated_at }}</p>
     <a href="/celebrities/{{celebrity.id}}/edit">Edit</a> | Delete
   </body>
