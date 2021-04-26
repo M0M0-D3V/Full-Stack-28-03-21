@@ -16,6 +16,7 @@
 
 ## EXAM This Thursday
 - Review and Questions on Tuesday
-- Just a regular assignment you'll be doing alone for 5 hours
+- Just like a regular assignment but you'll be doing alone for 5 hours
+
 
 ## CONGRATULATIONS TO WEEK 4 CHAMPION :star2: `Amani Elhussien` :star2:
