@@ -13,4 +13,13 @@
     - Make a table to show all the recipes user has tried
     - on the show Recipe page, add a link to go back to /recipes
 
-## Build Full App
+## Build Full App - Recipes
+- [] Login app
+- [] Add relationships
+    - One to Many - One User can post Many Recipes
+    - Many to Many - Many Users can like and try Many Recipes
+- [] Use Boolean Field
+    - Only user who posted the Recipe can choose if Recipe is shared to public (true)
+    - If isShared is False, then other users cannot see the Recipe
+- [] Show Liked button to other users, and can only like once
+    - Show Unlike button if Liked 

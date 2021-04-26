@@ -16,6 +16,16 @@
     - example: Advanced Queries
     - example: Other algorithms
     - example: Sensei or Ninja bonuses from assignments
+  - Deployment - have 24 hours after 5 hour exam to deploy on AWS
+    - email the IP address once completed
+
+### General Info
+
+- It's common to have to re-take the exam, success rate is dramatically higher on the 2nd attempt.
+- NO HELPING EACH OTHER. It's easy to spot shared code. DO NOT share exam info with those who haven't taken it.
+- If you get stuck on exam - Can ask for clarification, or hint (what something is, but not how to do it)
+- Start Exam latest by 10:30am so that you can finish before 4pm and get some feedback and have support available
+  - Otherwise if you starte exam after 12pm, instructor and TAs may not be available to assist with clarification
 
 ### Tips on Exam
 
@@ -24,14 +34,25 @@
 - Possible written question but that is separate time ~10 min
 - Download all images, wireframes, pdfs, and copy paste instructions
 - Can reference your assignments and lecture notes/videos
-- Focus on Functionality first!
-- All Information types needs to show on templates
-- Need style match 70% - Save CSS for last
-- No helping allowed, but if you get stuck, you may ask for small hint from Monica, Nathan, or Alreem
+- Focus on functionality and red belt requirements first, do not spend a lot of time on CSS, until you have everything working, then attempt black belt requirements
+- Use a Checklist To Track Completed Requirements & For Testing
 
 ### When you are done with Exam
 
-- Ask for pre-check to know if pass/fail
-- Zip entire project and submit on exam page
+- Ask for pre-check to show exam to instructor - you will know if pass/fail
+- Otherwise, results will be emailed by Saturday night
+- Zip entire project and upload on exam page
 - VIDEO IS NOT REQUIRED
-- If submission does not work, Send Zip file through MatterMost to Monica
+- If you have a problem uploading your project zip, email the zip to mhong@codingdojo.com, nbell@codingdojo.com, and aabbad_p@mcit.gov.sa
+- BLACK BELT: Work on deployment after exam. You have 24 hours to send deployed IP Address in email when completed
+
+### AFTER EXAM
+
+- PLEASE SLEEP
+
+#### If you need to retake:
+
+- [] finish the first exam (you can work together)
+- [] demonstrate functionality
+- [] request new exam code
+- [] 2nd exam attempt next week by Wednesday 5-May
