@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Recipe</title>
+  </head>
+  <body>
+    <a href="/recipes">Dashboard</a> | <a href="/logout">Logout</a>
+    <h1>Create New Recipe</h1>
+    <form action="/recipes/create" method="POST">
+      {% csrf_token %}
+      <p>Name<input type="text" name="name" /></p>
+      <p>Description<input type="text" name="desc" /></p>
+      <p>Instructions<textarea name="instruction"></textarea></p>
+      <p>
+        Under 30 minutes?<input type="radio" name="under_30" value="true" />Yes
+        <input type="radio" name="under_30" value="false" />No
+      </p>
+      <button type="submit">Create!</button>
+    </form>
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>
+        {{ message }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>

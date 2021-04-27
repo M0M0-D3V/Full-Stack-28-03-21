@@ -53,4 +53,7 @@ function removeDuplicates(nums) {}
 // const expected5 = [5, 1];
 //  - order doesn't matter
 
+// const nums6 = [5, 1, 4, 1, 5, 4];
+// const expected6 = [];
+
 function mode(nums) {}
