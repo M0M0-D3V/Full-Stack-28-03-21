@@ -23,8 +23,10 @@ https://www.tiktok.com/@bellapoarch/video/6953668521868020997?is_from_webapp=v1&
 - Team 6 - Future Developers @ 2:00pm w / Nathan
 - Team 7 - CodingNinjas @ 2:30pm w / Nathan
 
-## Tomorrow's Exam code will be emailed to you
-- at least 50% assignments
+## Tomorrow's Exam code will be emailed
+- required assignments
+    - Login Register
+    - at least 1 ORM assignment
 
 ## Activity Day at 12pm!
 

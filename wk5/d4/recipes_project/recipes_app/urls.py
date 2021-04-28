@@ -7,18 +7,22 @@ urlpatterns = [
     path('', views.index),
     path('recipes', views.recipes),
     path('recipes/new', views.new_recipes),
-    # 3. /recipes/<int:id> - show one recipe and info
-
-    # 5. /recipes/<int:id> - form to edit recipe
+    path('recipes/<int:r_id>/edit', views.edit_recipe),
+    path('recipes/<int:r_id>', views.show_recipe),
 
     # return redirects
     path('register', views.register),
-    # 1-b. /login - post route for login
-    # 4-a. /recipes/create - post route to create
+    path('login', views.login),
     path('recipes/create', views.create_recipe),
-    # 5-a. /recipes/update - post route to update
-    # 5-b. /recipes/delete - post route to delete
+    path('recipes/<int:r_id>/update', views.update_recipe),
+    path('recipes/<int:r_id>/delete', views.delete_recipe),
     path('logout', views.logout),
+    # tried it
+    path('recipes/<int:r_id>/tried', views.tried_recipe),
+    # like
+    path('recipes/<int:r_id>/like', views.like_recipe),
+    # unlike
+    path('recipes/<int:r_id>/unlike', views.unlike_recipe),
 
 ]
 

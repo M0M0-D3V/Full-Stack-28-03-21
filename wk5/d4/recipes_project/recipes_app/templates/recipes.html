@@ -17,12 +17,42 @@
         <th>Actions</th>
       </thead>
       {% for recipe in all_recipes %}
+        {% if user not in recipe.tried_by.all %}
+          <tr>
+          <td>{{recipe.name}}</td>
+          <td>{{recipe.under_30}}</td>
+          <td>
+            <a href="/recipes/{{recipe.id}}">View Instructions</a> |
+            {% if user.id == recipe.upload_by.id %}
+            <a href="/recipes/{{recipe.id}}/edit">Edit</a> |
+            <a href="/recipes/{{recipe.id}}/delete">Delete</a>
+              {% else %}
+            <a href="/recipes/{{recipe.id}}/tried">Tried it</a>
+              {% if user not in recipe.liked_by.all %}
+            <a href="/recipes/{{recipe.id}}/like"> | Like it</a>
+              {% else %} | <a href="/recipes/{{recipe.id}}/unlike">Unlike it</a>
+            {% endif %}
+          {% endif %}
+          </td>
+      </tr>
+      {% endif %} {% endfor %}
+    </table>
+    <h3>Here are recipes you have tried</h3>
+    <table>
+      <thead>
+        <th>Name</th>
+        <th>Under 30</th>
+        <th>Actions</th>
+      </thead>
+      {% for recipe in user_tried_recipes %}
       <tr>
         <td>{{recipe.name}}</td>
         <td>{{recipe.under_30}}</td>
         <td>
-          <a href="">View Instructions</a> |
-          {% if user.id == recipe.upload_by.id %} <a href="">Edit</a> | <a href="">Delete</a>
+          <a href="/recipes/{{recipe.id}}">View Instructions</a> |
+          {% if user not in recipe.liked_by.all %}
+          <a href="/recipes/{{recipe.id}}/like"> | Like it</a>
+          {% else %} | <a href="/recipes/{{recipe.id}}/unlike">Unlike it</a>
           {% endif %}
         </td>
       </tr>

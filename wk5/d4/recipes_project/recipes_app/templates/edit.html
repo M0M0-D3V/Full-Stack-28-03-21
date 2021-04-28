@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Recipe</title>
+  </head>
+  <body>
+    <a href="/recipes">Dashboard</a> | <a href="/logout">Logout</a>
+    <h1>Edit Recipe: {{recipe.name}}</h1>
+    <form action="/recipes/{{recipe.id}}/update" method="POST">
+      {% csrf_token %}
+      <p>Name<input type="text" name="name" value="{{recipe.name}}" /></p>
+      <p>
+        Description<input
+          type="text"
+          name="desc"
+          value="{{recipe.description}}"
+        />
+      </p>
+      <p>
+        Instructions<textarea name="instruction">
+{{recipe.instruction}}</textarea
+        >
+      </p>
+      <p>
+        Under 30 minutes? {% if recipe.under_30 == True %}
+        <input type="radio" name="under_30" value="true" checked />Yes
+        <input type="radio" name="under_30" value="false" />No
+        {% else %}
+        <input type="radio" name="under_30" value="true" />Yes
+        <input type="radio" name="under_30" value="false" checked />No
+        {% endif %}
+      </p>
+      <button type="submit">Edit!</button>
+    </form>
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>
+        {{ message }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>

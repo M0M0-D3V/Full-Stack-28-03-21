@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Recipe</title>
+  </head>
+  <body>
+    <h1>{{recipe.name}}</h1>
+    <p>Description: {{recipe.description}}</p>
+    <p>Instructions: {{recipe.instruction}}</p>
+    <p>Under 30 min?: {{recipe.under_30}}</p>
+    <p>Liked by:
+    {% if recipe.liked_by.all %}
+         {{recipe.liked_by.all|length}}</p>
+        {% else %}0</p>
+    {% endif %}
+    <p>Tried by:
+    {% if recipe.tried_by.all %}
+        {{recipe.tried_by.all|length}}</p>
+        {% else %}0</p>
+    {% endif %}
+    {% if user not in recipe.liked_by.all %}
+    <a href="/recipes/{{recipe.id}}/like">Like it</a>
+    {% endif %}
+
+{% if user not in recipe.tried_by.all %}
+    <a href="/recipes/{{recipe.id}}/tried">Tried it</a>
+    {% endif %}
+  </body>
+</html>
