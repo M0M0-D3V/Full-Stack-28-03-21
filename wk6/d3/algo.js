@@ -49,12 +49,26 @@ function binarySearch(sortedNums, searchNum) {
   returns a new string from beginIndex to endIndex exclusive
 */
 
-// const str1 = "abc";
-// const expected1 = "cba";
+const str1 = "abc";
+const expected1 = "cba";
 
-// const str2 = "";
-// const expected2 = "";
+const str2 = "";
+const expected2 = "";
 
 function reverseStr(str) {
   // code here
+  // if string is empty return null
+  if (str.length == 0) {
+    return "";
+  }
+  return reverseStr(str.substr(1)) + str[0];
+
+  // base case
+  // create a start and ending
+  // var start = 0
+  // var ending = str.length - 1
+  // // create midpoint
+  // var mid = Math.floor(ending / 2)
 }
+var result = reverseStr(str1, expected1)
+console.log(result)
