@@ -1,6 +1,8 @@
 /*
   Recursive Factorial
 
+  5! => 1 x 2 x 3 x 4 x 5
+
   Input: integer
   Output: integer, product of ints from 1 up to given integer
 
@@ -33,7 +35,7 @@ function factorial(n) {
 /*
     Return the fibonacci number at the nth position, recursively.
   
-    Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+    Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55...
   
     The next number is found by adding up the two numbers before it,
     starting with 0 and 1 as the first two numbers of the sequence.
