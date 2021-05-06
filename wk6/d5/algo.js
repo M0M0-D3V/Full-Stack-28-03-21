@@ -33,8 +33,58 @@
 **Tips**
 // Add params if needed
 */
-
-function floodFill(canvas2D, startXY, newColor) {
-    // code here
+// function floodFill(canvas2D, startXY, newColor) {}
+function floodFill(canvas2D, startXY, newColor, originalColor = null) {
+  console.log(canvas2D);
+  var x = startXY[0]; // [2,1] first index is x
+  var y = startXY[1]; // second index is y
+  // null                 [1, 0] => 2 !== null
+  if (originalColor && canvas2D[y][x] !== originalColor) {
+    return;
   }
-  
+
+  var changed = false;
+  //  this if statement will update originalColor if it isn't stored
+  if (!originalColor) {
+    originalColor = canvas2D[y][x];
+  }
+  // if location of pixel matches the given value at startXY, change the value to newColor and flip the boolean to true
+  if (canvas2D[y][x] === originalColor) {
+    canvas2D[y][x] = newColor;
+    changed = true;
+  }
+  // if number has been changed..
+  if (changed) {
+    if (y - 1 >= 0) {
+      // [2,1]
+      floodFill(canvas2D, [x, y - 1], newColor, originalColor);
+    }
+
+    if (x + 1 < canvas2D[0].length) {
+      floodFill(canvas2D, [x + 1, y], newColor, originalColor);
+    }
+
+    if (y + 1 < canvas2D.length) {
+      floodFill(canvas2D, [x, y + 1], newColor, originalColor);
+    }
+
+    if (x - 1 >= 0) {
+      floodFill(canvas2D, [x - 1, y], newColor, originalColor);
+    }
+  }
+
+  return canvas2D;
+}
+
+const canvas = [
+  [3, 2, 3, 4, 3],
+  [2, 3, 3, 4, 0],
+  [7, 3, 3, 5, 3],
+  [6, 5, 3, 4, 1],
+  [1, 2, 3, 3, 3],
+];
+
+const start = [2, 2];
+const newColor = 1;
+
+console.log(floodFill(canvas, start, newColor));

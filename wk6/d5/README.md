@@ -12,7 +12,7 @@
 
 ### Nominate this week's champion before 12pm -- will announce during project presentation
 
-# PROJECT PRESENTATIONS AT 3PM
+# PROJECT PRESENTATIONS AT 2:30PM
 
 ## Reminders
 ### Assignments 70% in before Saturday May 8, at 11:50pm
@@ -22,6 +22,9 @@
 
 # RAMADAN HOLIDAY
 - Advise to get started in MERN
+- get familiar with JavaScript assignments:
+    - variable types, hoisting, arrow functions, map, filter, etc.
+    
 ## Python/Django Project:
 ### If you could not participate in projects this week, work on a solo or group up with others over the holiday to make a project
 - Submit a video demo of project by Saturday May 22, 11:50pm
