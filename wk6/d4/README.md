@@ -6,8 +6,8 @@
 
 - announce tomorrow~~
 
-## Activity Day at 11am!
+## Activity Day at 1pm!
 
-- We will have an hour of sketchful.io with all WebFund and Python words (:
+- We will have a co-op 
 
 ## Continue Exam Retakes and Projects :100:
