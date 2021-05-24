@@ -26,6 +26,7 @@ Prototype
 ### - Dojo CCG (Card Collecting Game)
 ---------------------
 ## Functional Programming
+### - Multi-Paradigm (JS)
 ### - Function Composition
 ### - Callback Functions
 ### - The Big Freeze
