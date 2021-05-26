@@ -1,5 +1,7 @@
 # Hackathon / Mashaallathon
 
+clone this repo: https://github.com/M0M0-D3V/MERN-Mashaallathon
+
 ### Ideas for content
 
 - USER DASHBoARDS AND PROFILES
