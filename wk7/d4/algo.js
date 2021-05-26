@@ -36,22 +36,6 @@ const nums3 = [1, 17, 12, 3, 9, 13, 21, 4, 27];
  *    being processed.
  * @returns {Array<number>} The idx where left section of smaller items ends.
  */
-function partition(nums = [], left = 0, right = nums.length - 1) {
-  // your code here
-}
+function partition(nums = [], left = 0, right = nums.length - 1) {}
 
-/**
- * The lomuto partition scheme does on average 3x more swaps than Hoare's
- * scheme.
- * @param {Array<number>} nums
- * @param {number} low Start of section to partition.
- * @param {number} hi End of section to partition.
- */
-function partitionLomuto(nums = [], low = 0, hi = nums.length - 1) {
-  // code here
-}
-
-module.exports = {
-  partition,
-  partitionLomuto,
-};
+/*****************************************************************************/
