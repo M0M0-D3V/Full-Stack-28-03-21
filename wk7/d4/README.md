@@ -38,6 +38,6 @@
 
 ## Prepare for Tomorrow's Mashaallathon~~
 
-- we will demo how to make Pull Requests on gitHub
+- we will demo how to make `Pull Requests` on gitHub
 - will have separate gitHub repo where every team can collab
 - designate team member to send me gitHub email address so I can add you to the repo
