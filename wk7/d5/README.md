@@ -4,7 +4,13 @@ clone this repo: https://github.com/M0M0-D3V/MERN-Mashaallathon
 
 ### Ideas for content
 
-- USER DASHBoARDS AND PROFILES
+- profile avatar
+- education
+- work experience
+- favorite programming language and why
+- hobbies
+- something unique
+- something funny
 
 ## Inspiration
 
