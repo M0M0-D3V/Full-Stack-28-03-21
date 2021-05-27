@@ -40,39 +40,39 @@ function partition(nums, left = 0, right = nums.length - 1) {
   let rightIdx = right;
 
   while (true) {
-    console.log(
-      `starting outer while loop...... leftIdx : ${leftIdx} rightIdx: ${rightIdx}`
-    );
+    // console.log(
+    //   `starting outer while loop...... leftIdx : ${leftIdx} rightIdx: ${rightIdx}`
+    // );
     // leftIdx is going to find smaller value
     // rightIdx is going to find bigger value
     while (nums[leftIdx] < pivotVal) {
       leftIdx++;
-      console.log(`nums[leftIdx] is less than pivot`);
+      // console.log(`nums[leftIdx] is less than pivot`);
     }
     // rightIdx stops at nums.length - 2
     while (nums[rightIdx] > pivotVal) {
       rightIdx--;
-      console.log(`nums[rightidx] is greater than pivot`);
+      // console.log(`nums[rightidx] is greater than pivot`);
     }
 
     if (leftIdx >= rightIdx) {
-      console.log(`returning ${leftIdx} ${rightIdx}`);
+      // console.log(`returning ${leftIdx} ${rightIdx}`);
       return rightIdx;
     }
     // swaps leftvalue with rightvalue
     // 11 swaps with 2
     // 8 swaps with 3
     [nums[leftIdx], nums[rightIdx]] = [nums[rightIdx], nums[leftIdx]];
-    console.log(nums);
+    // console.log(nums);
     leftIdx++;
     rightIdx--;
   }
 }
 // result [2, 3, 14, 8, 6, 11, 7]
-const nums1 = [11, 8, 14, 3, 6, 2, 7];
-const nums2 = [11, 8, 14, 3, 3, 3, 6, 2, 7];
-const nums3 = [1, 17, 12, 3, 9, 13, 21, 4, 27];
-console.log(partition(nums1));
+// const nums1 = [11, 8, 14, 3, 6, 2, 7];
+// const nums2 = [11, 8, 14, 3, 3, 3, 6, 2, 7];
+// const nums3 = [1, 17, 12, 3, 9, 13, 21, 4, 27];
+// console.log(partition(nums1));
 
 module.exports = {
   partition,

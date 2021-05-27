@@ -47,6 +47,22 @@ const expected3 = [2, 3, 3, 6, 7, 8, 11, 14];
  *    given array being processed.
  * @returns {Array<number>} The given array after being sorted.
  */
-function quickSort(nums = [], left = 0, right = nums.length - 1) {}
+function quickSort(nums = [], left = 0, right = nums.length - 1) {
+  console.log(`***************`);
+  console.log(`left: ${left} and right: ${right}`);
+  console.log(`nums is: ${nums}`);
+  if (left < right) {
+    // partition function will return index of position where it belongs
+    const pivotIndex = partition(nums, left, right);
+    console.log(`pivotIndex: ${pivotIndex}`);
+
+    console.log(`quickSort on left:`, quickSort(nums, left, pivotIndex));
+    console.log(`quickSort on right:`, quickSort(nums, pivotIndex + 1, right));
+  }
+  return nums;
+}
+
+const result = quickSort(nums1);
+console.log(`result is: ${result}`);
 
 module.exports = { quickSort };
