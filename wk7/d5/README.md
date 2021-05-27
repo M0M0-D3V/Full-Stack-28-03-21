@@ -34,7 +34,7 @@ clone this repo: https://github.com/M0M0-D3V/MERN-Mashaallathon
 - request to be a collaborator on the repo from Instructor (send me your github username or email)
 - check email to confirm invitation
 - cd into where you want to save the project
-- clone project from [here](git@github.com:CBaut/mashallathon.git)
+- clone project from [here](https://github.com/M0M0-D3V/MERN-Mashaallathon.git)
 - `git clone https://github.com/M0M0-D3V/MERN-Mashaallathon.git`
 - create a new branch `git checkout -b branch_name`
 - `npm install` to install node_modules (omitted by .gitignore)
