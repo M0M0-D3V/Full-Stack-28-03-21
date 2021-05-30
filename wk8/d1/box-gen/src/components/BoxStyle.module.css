@@ -1,0 +1,11 @@
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  margin: 5px;
+}

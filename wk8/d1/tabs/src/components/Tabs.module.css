@@ -1,0 +1,21 @@
+* {
+  color: darkgray;
+  background-color: aliceblue;
+}
+body {
+}
+.title {
+  padding: 15px;
+  border: 1px solid gray;
+  width: 80px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid gray;
+  padding: 15px;
+  width: 500px;
+}
