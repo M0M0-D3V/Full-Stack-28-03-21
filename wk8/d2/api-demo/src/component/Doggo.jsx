@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const Doggo = (woof) => {
-  const [doggos, setDoggos] = useState([]);
+const Doggo = ({ showDoggos }) => {
+  // const [showDoggos, setDoggos] = useState([]);
 
   //   useEffect(() => {
   //     fetch("https://random.dog/doggos")
@@ -13,18 +13,18 @@ const Doggo = (woof) => {
   //       });
   //   }, []);
 
-  useEffect(() => {
-    axios.get("https://random.dog/doggos").then((response) => {
-      console.log(response.data);
-      setDoggos(response.data);
-    });
-  });
+  // useEffect(() => {
+  //   axios.get("https://random.dog/doggos").then((response) => {
+  //     console.log(response.data);
+  //     setDoggos(response.data);
+  //   });
+  // });
 
   return (
     <>
       <h1>Showing Doggos</h1>
-      {doggos.length > 0 &&
-        doggos.map((doggo, index) => {
+      {showDoggos.length > 0 &&
+        showDoggos.map((doggo, index) => {
           return (
             <img
               key={index}
