@@ -41,6 +41,9 @@ function orderedMultisetUnion(sortedA, sortedB) {
   left to right diagonal: 1 + 5 + 9 = 15
   right to left diagonal: 3 + 5 + 9 = 17
   absolute difference = 2
+
+  15 - 17 = -2 => 2
+  17 - 15 = 2 => 2
 */
 
 function diagonalDifference(sqrMatrix) {
