@@ -8,6 +8,8 @@
 
 #### - I cannot consider you are ready for exam unless I meet with you
 
+- If you already spoke with me don't worry about setting calendly
+
 #### - I will not be setting the appointment for you this time, please take responsibility to set it
 
 ---
