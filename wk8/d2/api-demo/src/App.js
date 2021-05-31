@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hello here are the results!</h1>
-      <DoggoButton setDoggos={setDoggos} showDoggos={doggos} />
-      {/* <Doggo showDoggos={doggos} /> */}
+      {/* <DoggoButton setDoggos={setDoggos} showDoggos={doggos} /> */}
+      <DoggoButton setDoggos={setDoggos} />
+      <Doggo showDoggos={doggos} />
       {/* <Kitteh /> */}
       {/* <TheOne /> */}
     </div>
@@ -22,7 +23,7 @@ export default App;
 
 function doSomething() {
   // something
-  
+
 }
 
 function doSomethingElse() {
