@@ -33,5 +33,30 @@ function symmetricDifferences(setA, setB) {
   // code here
 }
 
+
+// Monica's solution from when she was a student
+function disjunctiveUnion(arr1, arr2) {
+  newArr = [];
+  let temp = 0;
+
+  for (let i = 0; i < arr1.length; i++) {
+    temp = arr1[i];
+    dupeFound = false;
+    for (let j = 0; j < arr2.length; j++) {
+      
+      if (arr1[i] == arr2[j]){
+        dupeFound = true;
+        break;
+      }
+    }
+    if (dupeFound == false && arr[i] != newArr[newArr.length - 1]) {
+      newArr.push(arr1[i]);
+    }
+    
+    // here is where if dupeFound is found, push
+  }
+  return newArr;
+}
+
 /*****************************************************************************/
 // After done, take a headstart and review the reading for today's discussion
