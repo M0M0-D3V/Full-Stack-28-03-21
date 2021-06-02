@@ -1,6 +1,14 @@
 # :tada:WELCOME TO WEEK 8 DAY 4! :tada:
 
-## Today's Agenda... afternoon first...
+## Today's Agenda
+
+---
+
+## Nominate this week's champion in MatterMost
+
+- Write a message in your team channel who you nominate and reason
+
+### - Will nnounce tomorrow 3pm
 
 ---
 
@@ -81,3 +89,11 @@ app.listen( port, () => console.log(`Listening on port: ${port}`) );
 ---
 
 ### END OF DAY GOAL: :sparkler: Faker API :sparkler:
+
+---
+
+#### `gentle reminders...`
+
+- 20 minute rule! - set a timer if you have to
+- ask questions if you're not sure, chances are, your question will help another classmate
+- schedule a :one: on :one: with me on calendly before the exam, let's get you prepared! :muscle:
