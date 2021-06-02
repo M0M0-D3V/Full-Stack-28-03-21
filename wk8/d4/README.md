@@ -12,6 +12,14 @@
 
 ---
 
+#### `gentle reminders...`
+
+- 20 minute rule! - set a timer if you have to
+- ask questions if you're not sure, chances are, your question will help another classmate
+- schedule a :one: on :one: with me on calendly before the exam, let's get you prepared! :muscle:
+
+---
+
 ## :video_game:ACTIVITY DAY:space_invader: - 1pm
 
 ### :balloon:Join us here in main room for JackBox games! Nathan will host a stream so come participate as a player or watch as audience.
@@ -91,9 +99,3 @@ app.listen( port, () => console.log(`Listening on port: ${port}`) );
 ### END OF DAY GOAL: :sparkler: Faker API :sparkler:
 
 ---
-
-#### `gentle reminders...`
-
-- 20 minute rule! - set a timer if you have to
-- ask questions if you're not sure, chances are, your question will help another classmate
-- schedule a :one: on :one: with me on calendly before the exam, let's get you prepared! :muscle:

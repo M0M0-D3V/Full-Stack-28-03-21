@@ -52,4 +52,3 @@ function allNonConsecutive(sortedNums) {
 
 /*
 prepare reading for discussion when finished
-*/
