@@ -8,7 +8,7 @@
 
 - Write a message in your team channel who you nominate and reason
 
-### - Will nnounce tomorrow 3pm
+### - Will announce tomorrow 3pm
 
 ---
 
