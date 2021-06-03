@@ -51,7 +51,19 @@ function kMostFrequent(nums, k) {
 // const expected1 = [0, 2];
 
 function twoSum(nums, targetSum) {
-  // code here
+  const numsAndIndices = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i],
+      diff = targetSum - num;
+
+    if (numsAndIndices.hasOwnProperty(diff)) {
+      const addendIdx = numsAndIndices[diff];
+      return [addendIdx, i];
+    }
+    numsAndIndices[num] = i;
+  }
+  return [];
 }
 
 // read ahead when you are done (:

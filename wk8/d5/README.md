@@ -4,7 +4,7 @@
 
 ---
 
-## MongoDB + Mongoose - ~10am
+## MongoDB - ~10am
 
 ### Overview - MongoDB
 
@@ -76,7 +76,7 @@ Example: `db.ninjas.insert({name: "Trey", belt: "black", status: "awesome"})`
   - `.find({})` also works
   - `.pretty()` at end to format
 - `db.collectionName.findById(ObjectId("id"));`
-
+-difference is object type: ObjectId is type `String` that passes in `string` type
 Example: `db.ninjas.find({name: "Trey"})`
 
 Example: `db.ninjas.find({_id: ObjectId("5462a78e514e258182f4c69a")})`
@@ -138,3 +138,5 @@ This query would have the same effect as the one above.
 ### END OF DAY GOAL: :sparkler: Jokes API :sparkler:
 
 ---
+
+### Play along next week, change profile picture to your favorite animal :turtle:!
