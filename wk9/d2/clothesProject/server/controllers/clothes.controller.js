@@ -36,4 +36,22 @@ module.exports = {
       .then((clothes) => res.json(clothes))
       .catch((err) => res.status(400).json(err));
   },
+  getOne: (req, res) => {
+    Clothes.findOne({ _id: req.params.idd })
+      .then((clothing) => res.json(clothing))
+      .catch((err) => res.status(400).json(err));
+  },
+  updateClothing: (req, res) => {
+    Clothes.findOneAndUpdate({ _id: req.params.id }, req.body, {
+      new: true,
+      runValidators: true,
+    })
+      .then((clothing) => res.json(clothing))
+      .catch((err) => res.status(400).json(err));
+  },
+  deleteClothing: (req, res) => {
+    Clothes.deleteOne({ _id: req.params.iddd })
+      .then((clothing) => res.json(clothing))
+      .catch((err) => res.status(400).json(err));
+  },
 };

@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Link, Router } from "@reach/router";
+import Home from "./views/Home";
+import New from "./views/New";
+import Edit from "./views/Edit";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Link to="/new">Create New</Link> | <Link to="/">Go Back Home</Link>
+      <Router>
+        <Home path="/" />
+        <New path="/new" />
+        <Edit path="/edit/:id" />
+      </Router>
     </div>
   );
 }
