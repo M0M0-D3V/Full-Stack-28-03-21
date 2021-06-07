@@ -12,7 +12,7 @@
 
 ### Presentational vs Container
 
-### Validations
+### Validations - (required on exam)
 
 ---
 
@@ -49,11 +49,15 @@
     - CRUD routes
     - `nodemon server.js`
 
+### Full CRUD in Server...
+
 ---
 
 ## Check in + Continue Project Demo - 3pm
 
 ### - Bring questions for Q & A
+
+### - Continue building project client side with React
 
 ---
 
@@ -65,7 +69,7 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: Product Manager Part 3 :sparkler:
+### END OF DAY GOAL: :sparkler: Team Manager Part 3 :sparkler:
 
 ---
 
