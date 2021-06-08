@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "@reach/router";
+import { Link, navigate } from "@reach/router";
+import ClothesList from "../components/ClothesList";
 const Home = (props) => {
   // 1. variables and useState
   const [clothes, setClothes] = useState([]);
@@ -21,23 +22,7 @@ const Home = (props) => {
   return (
     <>
       <h1>Home</h1>
-      {clothes.length > 0 &&
-        clothes.map((clothing) => {
-          return (
-            <div key={clothing._id}>
-              <p>Category: {clothing.category}</p>
-              <p>Name: {clothing.name}</p>
-              <p>Size: {clothing.size}</p>
-              <p>Price: {clothing.price}</p>
-              <img
-                src={clothing.imgUrl}
-                alt={clothing.name}
-                style={{ width: "300px" }}
-              />
-              <Link to={`/edit/${clothing._id}`}>Edit</Link>
-            </div>
-          );
-        })}
+      <ClothesList clothes={clothes} setClothes={setClothes} />
     </>
   );
 };

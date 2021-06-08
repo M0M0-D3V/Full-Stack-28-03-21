@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { navigate } from "@reach/router";
+import DeleteButton from "../components/DeleteButton";
+import ClothesForm from "../components/ClothesForm";
 const Edit = ({ id }) => {
   const [formInputs, setFormInputs] = useState({
     category: "",
@@ -49,59 +51,16 @@ const Edit = ({ id }) => {
   return (
     <>
       <h1>Edit Clothing: {id}</h1>
-      <form onSubmit={submitFunction}>
-        {errors.map((err, index) => (
-          <p key={index}>{err}</p>
-        ))}
-        <p>
-          Category:{" "}
-          <input
-            type="text"
-            name="category"
-            value={formInputs.category}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          imgUrl:{" "}
-          <input
-            type="text"
-            name="imgUrl"
-            value={formInputs.imgUrl}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Size:{" "}
-          <input
-            type="text"
-            name="size"
-            value={formInputs.size}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Name:{" "}
-          <input
-            type="text"
-            name="name"
-            value={formInputs.name}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Price:{" "}
-          <input
-            type="number"
-            name="price"
-            value={formInputs.price}
-            onChange={changeFunction}
-            min="0"
-            step="0.01"
-          />
-        </p>
-        <button type="submit">Edit</button>
-      </form>
+      {errors.map((err, index) => (
+        <p key={index}>{err}</p>
+      ))}
+      <ClothesForm
+        formInputs={formInputs}
+        changeFunction={changeFunction}
+        submitFunction={submitFunction}
+        buttonText={"Edit"}
+      />
+      <DeleteButton id={id} successCallBack={() => navigate("/")} />
     </>
   );
 };

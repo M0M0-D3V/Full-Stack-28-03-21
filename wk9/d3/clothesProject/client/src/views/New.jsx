@@ -1,6 +1,7 @@
 import axios from "axios";
 import { navigate } from "@reach/router";
 import { useState } from "react";
+import ClothesForm from "../components/ClothesForm";
 
 const New = (props) => {
   // 1. create variables and useState
@@ -48,59 +49,15 @@ const New = (props) => {
   return (
     <>
       <h1>Create New Clothing</h1>
-      <form onSubmit={submitFunction}>
-        {errors.map((err, index) => (
-          <p key={index}>{err}</p>
-        ))}
-        <p>
-          Category:
-          <input
-            type="text"
-            name="category"
-            value={formInputs.category}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          imgUrl:
-          <input
-            type="text"
-            name="imgUrl"
-            value={formInputs.imgUrl}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Size:
-          <input
-            type="text"
-            name="size"
-            value={formInputs.size}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Name:
-          <input
-            type="text"
-            name="name"
-            value={formInputs.name}
-            onChange={changeFunction}
-          />
-        </p>
-        <p>
-          Price:
-          <input
-            type="number"
-            name="price"
-            value={formInputs.price}
-            onChange={changeFunction}
-            min="0"
-            step="0.01"
-          />
-        </p>
-        <button type="submit">Create</button>
-      </form>
+      {errors.map((err, index) => (
+        <p key={index}>{err}</p>
+      ))}
+      <ClothesForm
+        formInputs={formInputs}
+        changeFunction={changeFunction}
+        submitFunction={submitFunction}
+        buttonText={"Create"}
+      />
     </>
   );
 };

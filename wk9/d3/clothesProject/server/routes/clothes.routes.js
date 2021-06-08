@@ -7,11 +7,11 @@ module.exports = (app) => {
   app.post("/api/clothes", ClothesController.createClothing);
   // Read
   // Get All
-  app.get("/api/clothes", ClothesController.getAll)
+  app.get("/api/clothes", ClothesController.getAll);
   // Get One
-  app.get("/api/clothes/:idd", ClothesController.getOne)
+  app.get("/api/clothes/:idd", ClothesController.getOne);
   // Update
-  app.put("/api/clothes/:id", ClothesController.updateClothing)
+  app.put("/api/clothes/:id", ClothesController.updateClothing);
   // Delete
-  app.delete("/api/clothes/:iddd", ClothesController.deleteClothing)
+  app.delete("/api/clothes/:iddd", ClothesController.deleteClothing);
 };
