@@ -110,53 +110,72 @@ function filterByKey(items, searchFor, searchBy) {
     Bonus: after solving it, make a 2nd solution to practice functional programming with built in methods
 */
 
-// const friend1 = {
-//   firstName: "Friend",
-//   lastName: "One",
-//   isSocialDistancing: false,
-//   hasCovid: true,
-// };
+const friend1 = {
+  firstName: "Friend",
+  lastName: "One",
+  isSocialDistancing: false,
+  hasCovid: true,
+};
 
-// const friend2 = {
-//   firstName: "Friend",
-//   lastName: "Two",
-//   isSocialDistancing: false,
-//   hasCovid: true,
-// };
+const friend2 = {
+  firstName: "Friend",
+  lastName: "Two",
+  isSocialDistancing: false,
+  hasCovid: true,
+};
 
-// const friend3 = {
-//   firstName: "Friend",
-//   lastName: "Three",
-//   isSocialDistancing: false,
-//   hasCovid: false,
-// };
+const friend3 = {
+  firstName: "Friend",
+  lastName: "Three",
+  isSocialDistancing: false,
+  hasCovid: false,
+};
 
-// const people = [
-//   {
-//     firstName: "Person",
-//     lastName: "One",
-//     isSocialDistancing: false,
-//     friends: [friend2, friend3],
-//   },
-//   {
-//     firstName: "Person",
-//     lastName: "Two",
-//     isSocialDistancing: true,
-//     friends: [friend2, friend1],
-//   },
-//   {
-//     firstName: "Person",
-//     lastName: "Three",
-//     isSocialDistancing: false,
-//     friends: [friend2, friend1],
-//   },
-// ];
+const people = [
+  {
+    firstName: "Person",
+    lastName: "One",
+    isSocialDistancing: false,
+    friends: [friend2, friend3],
+  },
+  {
+    firstName: "Person",
+    lastName: "Two",
+    isSocialDistancing: true,
+    friends: [friend2, friend1],
+  },
+  {
+    firstName: "Person",
+    lastName: "Three",
+    isSocialDistancing: false,
+    friends: [friend2, friend1],
+  },
+];
 
-// const expected = ["Person One", "Person Three"];
+const expected = ["Person One", "Person Three"];
 
 function coronaVirusAtRisk(persons) {
   // code here
+  const atRiskPersons = [];
+
+  for (const person of persons) {
+    if (person.isSocialDistancing === false) {
+      for (const friend of person.friends) {
+        if (friend.isSocialDistancing === false && friend.hasCovid) {
+          atRiskPersons.push(`${person.firstName} ${person.lastName}`);
+          // don't need to check any other friends, already know this person
+          // is at risk, and if we find they are at risk again, they will be
+          // pushed again if we don't break
+          break;
+        }
+      }
+    }
+  }
+  return atRiskPersons;
 }
+
+const result = coronaVirusAtRisk(people);
+console.log(result);
 
 /*****************************************************************************/
 /*

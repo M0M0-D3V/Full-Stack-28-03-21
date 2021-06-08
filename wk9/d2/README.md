@@ -69,7 +69,7 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: Team Manager Part 3 :sparkler:
+### END OF DAY GOAL: :sparkler: Team Manager :sparkler:
 
 ---
 
