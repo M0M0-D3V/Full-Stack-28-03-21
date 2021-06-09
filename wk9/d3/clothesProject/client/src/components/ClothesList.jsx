@@ -16,8 +16,8 @@ const ClothesList = ({ clothes, setClothes }) => {
               <p>Name: {clothing.name}</p>
               <p>Size: {clothing.size}</p>
               <p>Price: {clothing.price}</p>
-              <p>onSale: {clothing.onSale ? "Yes" : "No"}</p>
               <p>inStock: {clothing.inStock ? "Yes" : "No"}</p>
+              <p>onSale: {clothing.onSale ? "Yes" : "No"}</p>
               <img
                 src={clothing.imgUrl}
                 alt={clothing.name}
