@@ -38,6 +38,14 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: Finish a Full Stack Project :sparkler:
+## OPTIONAL EXAM Q & A - 4pm
+
+### Exam debriefing and info
+
+### Bring your questions!
+
+---
+
+### END OF DAY GOAL: :sparkler: Finish a Full Stack Project AND GET SLEEP! :sparkler:
 
 ---
