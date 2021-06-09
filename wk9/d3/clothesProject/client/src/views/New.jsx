@@ -11,6 +11,8 @@ const New = (props) => {
     size: "",
     name: "",
     price: 0,
+    onSale: true,
+    inStock: true,
   });
   const [errors, setErrors] = useState([]);
   // formInputs.category;
@@ -40,10 +42,31 @@ const New = (props) => {
   const changeFunction = (e) => {
     console.log("e.target.name", e.target.name);
     console.log("e.target.value", e.target.value);
-    setFormInputs({
-      ...formInputs,
-      [e.target.name]: e.target.value,
-    });
+    console.log("e.target.type:", e.target.type);
+    if (e.target.name === "onSale") {
+      console.log("e.target.checked", e.target.checked);
+      setFormInputs({
+        ...formInputs,
+        [e.target.name]: e.target.checked,
+      });
+    } else {
+      setFormInputs({
+        ...formInputs,
+        [e.target.name]: e.target.value,
+      });
+    }
+    if (e.target.name === "inStock") {
+      console.log("e.target.checked", e.target.checked);
+      setFormInputs({
+        ...formInputs,
+        [e.target.name]: e.target.checked,
+      });
+    } else {
+      setFormInputs({
+        ...formInputs,
+        [e.target.name]: e.target.value,
+      });
+    }
   };
   // 4. return
   return (

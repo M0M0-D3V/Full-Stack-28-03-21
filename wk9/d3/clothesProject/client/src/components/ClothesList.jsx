@@ -11,10 +11,13 @@ const ClothesList = ({ clothes, setClothes }) => {
         clothes.map((clothing) => {
           return (
             <div key={clothing._id}>
+              {console.log(clothing)}
               <p>Category: {clothing.category}</p>
               <p>Name: {clothing.name}</p>
               <p>Size: {clothing.size}</p>
               <p>Price: {clothing.price}</p>
+              <p>onSale: {clothing.onSale ? "Yes" : "No"}</p>
+              <p>inStock: {clothing.inStock ? "Yes" : "No"}</p>
               <img
                 src={clothing.imgUrl}
                 alt={clothing.name}

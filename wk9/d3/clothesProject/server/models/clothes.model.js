@@ -27,6 +27,14 @@ const ClothesSchema = new mongoose.Schema(
       required: [true, "{PATH} is required"],
       min: [0, "{PATH} must be at least {MIN}"],
     },
+    onSale: {
+      type: Boolean,
+      required: [true, "{PATH} is required"],
+    },
+    inStock: {
+      type: Boolean,
+      required: [true, "{PATH} is required"],
+    },
   },
   { timestamps: true }
 );
@@ -35,4 +43,4 @@ const ClothesSchema = new mongoose.Schema(
 // module.exports = Clothes
 
 // shorthand another way to write:
-module.exports.Clothes = mongoose.model("Clothes", ClothesSchema)
+module.exports.Clothes = mongoose.model("Clothes", ClothesSchema);

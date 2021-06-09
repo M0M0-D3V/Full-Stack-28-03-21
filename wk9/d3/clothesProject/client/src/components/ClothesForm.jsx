@@ -54,6 +54,29 @@ const ClothesForm = ({
             step="0.01"
           />
         </p>
+        <p>
+          In Stock?:
+          <input
+            type="checkbox"
+            name="inStock"
+            checked={formInputs.inStock}
+            value={formInputs.inStock}
+            onChange={changeFunction}
+          />
+          Yes
+        </p>
+        <p>
+          On Sale?:
+          <input
+            type="checkbox"
+            name="onSale"
+            checked={formInputs.onSale}
+            value={formInputs.onSale}
+            onChange={changeFunction}
+          />
+          Yes
+        </p>
+
         <button type="submit">{buttonText}</button>
       </form>
     </>
