@@ -69,7 +69,7 @@
 - Use a Checklist To Track Completed Requirements & For Testing
 - Check off each requirement when completed
 - Any time a change is made near the end, go through the checklist again testing each requirements and checking it off to make sure nothing broke what was working before
-- If you have a problem uploading your project zip, email it to cbautista@codingdojo.com, mhong@codingdojo.com
+- If you have a problem uploading your project zip, email it to: mhong@codingdojo.com, nbell@codingdojo.com, and aabbad_p@mcit.gov.sa
 - No need for video if you showed exam to intructor
 
 ## PLAGIARISM
