@@ -14,7 +14,6 @@
 
 ### **Will be graded firmly**
 
-### _Getting you ready for project submissions on the job_
 
 - Projects upon submission must work with basic installation: `npm install`, `dotnet reinstall`, etc.
   - Or you will be asked to provide a video demo
@@ -51,6 +50,7 @@
 ## Ideas
 
 - websockets
+- login / register
 - display charts
 - bootstrap, material ui, or other ui
 - mobile app using [React Native](https://reactnative.dev/)

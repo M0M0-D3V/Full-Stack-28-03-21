@@ -38,6 +38,7 @@ function dropIt(arr, callback) {
 
   What is it about a string that makes it possible for it to be a palindrome?
 */
+// examples of palindrome: racecar, tacocat
 
 // const str1 = "";
 // const expected1 = false;
