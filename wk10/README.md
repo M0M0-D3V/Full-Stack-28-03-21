@@ -15,7 +15,7 @@
 ### **Will be graded firmly**
 
 
-- Projects upon submission must work with basic installation: `npm install`, `dotnet reinstall`, etc.
+- Projects upon submission must work with basic installation: `npm install`, `dotnet restore`, etc.
   - Or you will be asked to provide a video demo
 - Ask for clarification if you are unsure about the wireframe and features
   - Do not guess what it should do or should look like

@@ -4,7 +4,7 @@
   return true if the first string can be built from the letters in the 2nd string
   Ignore case
 
-  .indexOf will only tell you if the letter is found one time
+  .indexOf will only tell you if the letter is found one time // not true: The indexOf() method returns the position of the first occurrence of a specified value in a string
 */
 
 const strA1 = "Hello World";
