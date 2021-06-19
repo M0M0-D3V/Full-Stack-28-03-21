@@ -86,9 +86,46 @@ const ailments3 = ["existential dread"];
 
 // Time: O(n*m) where n is meds length and m is longest treatableSymptoms length
 function getMeMyMeds(ailments, meds) {
-  // code here
+  let maxSymptomMatchCount = 0;
+
+  // use frequency table helps avoid having to loop over ailments every time
+  const ailmentsMap = {};
+  let matchedMeds = [];
+  console.log(`******** mapping ailments *******`);
+  for (const ailment of ailments) {
+    // the value isn't important
+    ailmentsMap[ailment] = true;
+    console.log(ailmentsMap);
+  }
+  console.log(`******** done mapping ailments *******`);
+
+  // loop to count how many symptoms match for each med
+  console.log(`**** outer loop for meds ****`);
+  for (const med of meds) {
+    let symptomMatchCount = 0;
+    console.log(`**** inner loop for each med ****`);
+    for (const symptom of med.treatableSymptoms) {
+      if (ailmentsMap.hasOwnProperty(symptom)) {
+        symptomMatchCount++;
+      }
+    }
+    // still inside outer loop
+    if (symptomMatchCount > 0) {
+      // what was maxSymptomMatchCount again?
+      if (symptomMatchCount === maxSymptomMatchCount) {
+        matchedMeds.push(med.name);
+      } else if (symptomMatchCount > maxSymptomMatchCount) {
+        maxSymptomMatchCount = symptomMatchCount;
+        // new max found, old matchedMeds need to be replaced with new arr of the new best med
+        matchedMeds = [med.name];
+      }
+    }
+  }
+  return matchedMeds;
 }
 
+let result = getMeMyMeds(ailments2, medications);
+console.log(result);
 
 // ******************************
 // const Devs = []
