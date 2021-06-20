@@ -1,0 +1,13 @@
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.exe
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.deps.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.runtimeconfig.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.runtimeconfig.dev.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\bin\Debug\netcoreapp3.1\MarhabaCsharp.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.csprojAssemblyReference.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.AssemblyInfoInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.AssemblyInfo.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.csproj.CoreCompileInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d1\MarhabaCsharp\obj\Debug\netcoreapp3.1\MarhabaCsharp.genruntimeconfig.cache
