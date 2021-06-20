@@ -21,3 +21,12 @@ python -
 
 dictionary = {}
 dictionary['firstKey'] = "firstValue"
+
+<!-- in python -->
+for item in items:
+    print(item)
+
+<!-- in js -->
+for(let item in items) {
+    <!-- something -->
+}

@@ -4,6 +4,7 @@ namespace MarhabaCsharp
 {
     class Program
     {
+        // the main entry point of every c# program
         static void Main(string[] args)
         // because it's an array, we can know that it can be access by index: args[index]
         {
@@ -92,6 +93,25 @@ namespace MarhabaCsharp
             listStrings.Add("matching Strings");
             listStrings.Add("10");
             listStrings.Add("matching Strings3");
+            Console.WriteLine($"list the listStrings {listStrings}");
+            // insert at a position
+            listStrings.Insert(2, "newString!");
+            Console.WriteLine("******");
+            foreach (string word in listStrings)
+            {
+                Console.WriteLine($"list the listStrings {word}");
+            }
+            Console.WriteLine("******");
+
+            // remove from List
+            listStrings.Remove("10");
+            listStrings.RemoveAt(0);
+            foreach (string word in listStrings)
+            {
+                Console.WriteLine($"list the listStrings {word}");
+            }
+
+
 
             List<object> objList = new List<object>();
             objList.Add("string");
@@ -102,14 +122,49 @@ namespace MarhabaCsharp
             Dictionary<string, string> myDictionary = new Dictionary<string, string>();
             myDictionary.Add("firstKey", "firstValue");
             myDictionary.Add("secondKey", "secondValue");
+            foreach (var info in myDictionary)
+            {
+                Console.WriteLine($"key is: {info.Key} and value is: {info.Value}");
+            }
 
+            // call Math class
+            // Math newNumber = new Math();
+            // this way is possible because of the `static` keyword in the function defintion of Add
+            int sum = Math.Add(1, 1);
+            Console.WriteLine($"sum is {sum}");
 
-            
+            // calling function from within Program class
+            print100();
+
+            // using the random library
+            Random rand = new Random();
+            for (int val = 0; val < 10; val++)
+            {
+                //Prints the next random value between 2 and 8
+                Console.WriteLine(rand.Next(2, 8));
+            }
         }
 
         String AnotherFunction()
         {
             return "something";
+        }
+        public static void print100()
+        {
+            for (int i = 0; i < 101; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+
+    class Math
+    {
+        // create a simple function to add 2 numbers together and return them
+        public static int Add(int num1, int num2)
+        {
+            Console.WriteLine("Something happens");
+            return num1 + num2;
         }
     }
 }
