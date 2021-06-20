@@ -4,8 +4,30 @@
 
 ---
 
-### Introduction
+# OVERVIEW
 
+### - Setting up Projects
+
+### - Strongly Typed
+
+### - Working with Arrays, Lists and Dictionaries
+
+### - Creating Functions
+
+### - Working with Debugger
+
+---
+
+## DATATYPES
+- Variables and Types
+- Conditionals
+- Loops
+- Random Values
+- Arrays
+- Lists
+- Dictionaries
+- Type Casting
+- Functions
 ---
 
 ## Check in + Continue - 3pm
@@ -23,5 +45,3 @@
 ---
 
 ### END OF DAY GOAL: :sparkler: Puzzles :sparkler:
-
-
