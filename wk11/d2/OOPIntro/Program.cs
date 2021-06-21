@@ -40,55 +40,11 @@ namespace OOPIntro
             {
                 Console.WriteLine(student.FullName());
             }
+
+            // more stuff!
+            Person hussainStudent = new Student("Hussain", "Alhadab", 666);
+            Console.WriteLine(hussainStudent.FullName());
         }
     }
 
-    public class Student
-    {
-        // 1. fields
-        public string firstName;
-        public string lastName;
-        public int iD;
-        private double gPa;
-        // private int socialSecurityNum;
-
-        // 2. properties
-        public double MyGPA
-        {
-            get
-            {
-                return gPa;
-            }
-            set
-            {
-                if (value > 3)
-                {
-                    gPa = value;
-                }
-                else
-                {
-                    Console.WriteLine("Need a bigger number!");
-                }
-            }
-        }
-        // 3. constructor!
-        public Student(string fName, string lName, int id, double gpa = 5.0)
-        {
-            firstName = fName;
-            lastName = lName;
-            iD = id;
-            gPa = gpa;
-        }
-        // 4. methods
-        public string FullName()
-        {
-            return $"{firstName} {lastName}";
-        }
-        // make method called StudyBuddy()
-        public void StudyBuddy(Student friend)
-        {
-            Console.WriteLine($"{FullName()} is studying with {friend.FullName()}");
-        }
-
-    }
 }

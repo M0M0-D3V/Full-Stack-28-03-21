@@ -26,4 +26,4 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: Puzzles :sparkler:
+### END OF DAY GOAL: :sparkler: Wizard, Ninja, Samurai :sparkler:
