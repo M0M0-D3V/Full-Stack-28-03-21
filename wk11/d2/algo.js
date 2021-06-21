@@ -65,7 +65,13 @@ class SinglyLinkedList {
    * @returns {SinglyLinkedList} This list.
    */
   insertAtFront(data) {
-    // code here
+    // make new head node
+    const newHead = new Node(data);
+    // move current head and everything else to newHead.next
+    newHead.next = this.head;
+    // swap newhead to head
+    this.head = newHead;
+    return this;
   }
 
   /**
@@ -75,7 +81,15 @@ class SinglyLinkedList {
    * @returns {any} The data from the removed node.
    */
   removeHead() {
-    // code here
+    // check if empty, return null if empty
+    if (this.isEmpty()) {
+      return null;
+    }
+    // move current head to variable
+    const oldHead = this.head;
+    // swap head to the next position of oldHead
+    this.head = oldHead.next;
+    return oldHead.data;
   }
 
   /**
@@ -85,7 +99,19 @@ class SinglyLinkedList {
    * @returns {number|NaN} The average of the node's data.
    */
   average() {
-    // code here
+    // return 0 if empty
+    if (this.isEmpty()) {
+      return 0;
+    }
+    let runner = this.head;
+    let sum = 0,
+      count = 0;
+    while (runner) {
+      count++;
+      sum += runner.data;
+      runner = runner.next;
+    }
+    return sum / count;
   }
 }
 
