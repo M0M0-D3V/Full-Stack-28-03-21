@@ -12,22 +12,8 @@ Read materials for class or continue working on other Project or Assignment afte
 // [ ] implement average()
 
 class Node {
-  /**
-   * Constructs a new Node instance. Executed when the 'new' keyword is used.
-   * @param {any} data The data to be added into this new instance of a Node.
-   *    The data can be anything, just like an array can contain strings,
-   *    numbers, objects, etc.
-   * @returns {Node} This new Node instance is returned automatically without
-   *    having to be explicitly written (implicit return).
-   */
   constructor(data) {
     this.data = data;
-    /**
-     * This property is used to link this node to whichever node is next
-     * in the list. By default, this new node is not linked to any other
-     * nodes, so the setting / updating of this property will happen sometime
-     * after this node is created.
-     */
     this.next = null;
   }
 }
