@@ -2,6 +2,8 @@
 
 ## Morning Discussion - 10am
 
+### - Questions from yesterday?
+
 ### - Interfaces
 
 ### - IEnumerable
