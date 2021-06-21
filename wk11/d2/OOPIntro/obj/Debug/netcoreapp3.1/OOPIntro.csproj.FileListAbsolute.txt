@@ -1,0 +1,13 @@
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.exe
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.deps.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.runtimeconfig.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.runtimeconfig.dev.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.csprojAssemblyReference.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.AssemblyInfoInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.AssemblyInfo.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.csproj.CoreCompileInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d2\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.genruntimeconfig.cache
