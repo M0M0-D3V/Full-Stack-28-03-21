@@ -14,9 +14,9 @@
 
 ## Check in - 3pm
 
-### - Nathan will :memo:demo `Hungry Ninja` Assignment :eyes:
-
 ### - Bring questions :question::question::question: and bugs :space_invader::space_invader::space_invader: for Q & A
+
+### - Review - let's build something
 
 ---
 
@@ -28,11 +28,15 @@
 
 ---
 
-#### **Tomorrow's Code Review is `Puzzles` - OR - `Wizard, Ninja, Samurai`**
+### \*\*Tomorrow..
+
+### - Code Review is `Puzzles` - OR - `Wizard, Ninja, Samurai`\*\*
 
 - Demo code functionality
 - Practice talking about your thought process
 - Get feedback on your code
+
+### - Nathan will :memo:demo `Hungry Ninja` Assignment :eyes: @ 4PM
 
 ---
 
