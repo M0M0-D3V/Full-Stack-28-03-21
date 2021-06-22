@@ -1,0 +1,13 @@
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.exe
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.deps.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.runtimeconfig.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.runtimeconfig.dev.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\bin\Debug\netcoreapp3.1\OOPPart2.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.csprojAssemblyReference.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.AssemblyInfoInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.AssemblyInfo.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.csproj.CoreCompileInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPPart2\obj\Debug\netcoreapp3.1\OOPPart2.genruntimeconfig.cache
