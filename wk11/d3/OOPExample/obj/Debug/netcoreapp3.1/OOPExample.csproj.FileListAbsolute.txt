@@ -1,0 +1,13 @@
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.exe
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.deps.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.runtimeconfig.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.runtimeconfig.dev.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\bin\Debug\netcoreapp3.1\OOPExample.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.csprojAssemblyReference.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.AssemblyInfoInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.AssemblyInfo.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.csproj.CoreCompileInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d3\OOPExample\obj\Debug\netcoreapp3.1\OOPExample.genruntimeconfig.cache
