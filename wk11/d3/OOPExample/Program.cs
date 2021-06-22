@@ -13,7 +13,7 @@ namespace OOPExample
             Student samaherStudent = new Student("Samaher", "Almalki", 444);
             Student amaniStudent = new Student("Amani", "Elhussien", 45678);
             Student hussainStudent = new Student("Hussain", "Alhadab", 666);
-            Student reemStudent = new Student("Reem", "Alotaibi", 789);
+            Student ranaStudent = new Student("Rana", "Alotaibi", 789);
             // let's build!
             // [] School class
             School codingDojo = new School("Coding Dojo", new List<Student>(){
@@ -33,22 +33,22 @@ namespace OOPExample
             // [] Person class
             // [] Student class
             codingDojo.AddStudent(asrarStudent);
-            codingDojo.AddStudent(reemStudent);
+            codingDojo.AddStudent(ranaStudent);
             codingDojo.DisplayStudents();
 
             // add course to student
-            reemStudent.AddCourse(dsCourse);
-            reemStudent.AddCourse(software);
-            reemStudent.DisplayCourses();
+            ranaStudent.AddCourse(dsCourse);
+            ranaStudent.AddCourse(software);
+            ranaStudent.DisplayCourses();
             dsCourse.DisplayStudents();
             samaherStudent.AddCourse(software);
             samaherStudent.DisplayCourses();
             software.DisplayStudents();
 
             // kid decides to drop class
-            reemStudent.DropCourse(dsCourse);
-            reemStudent.DisplayCourses();
-            codingDojo.GraduateStudent(reemStudent);
+            ranaStudent.DropCourse(dsCourse);
+            ranaStudent.DisplayCourses();
+            codingDojo.GraduateStudent(ranaStudent);
         }
     }
 }
