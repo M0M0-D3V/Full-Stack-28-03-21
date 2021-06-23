@@ -27,6 +27,7 @@ namespace MarhabaASP
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles(); // add this to use the wwwroot folder!
             app.UseMvc();    //add this line, replacing the app.UseRouting() and app.UseEndpoints() lines of code
         }
     }
