@@ -8,10 +8,9 @@ Read materials for class or continue working on other Project or Assignment afte
 
 // Starter class Node and SLL
 // [ ] Bring in other SLL methods previously built
-// [ ] implement contains()
-// [ ] bonus containsRecursive()
-// [ ] implement removeBack()
-// [ ] bonus recursiveMax()
+// [ ] implement secondToLast()
+// [ ] implement removeVal()
+// [ ] bonus prepend()
 
 class Node {
   constructor(data) {
@@ -27,6 +26,7 @@ class SinglyLinkedList {
 
   //  ********** TODAY *********
   /**
+   * [ 1, 2, 3, 4, 5] => 4 is 2nd to last
    * Retrieves the data of the second to last node in this list.
    * @return {any} The data of the second to last node or null if there is no
    *    second to last node.
