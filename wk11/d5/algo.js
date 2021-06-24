@@ -32,14 +32,18 @@ class SinglyLinkedList {
    *    whose nodes will be added to the back of this list.
    * @return {SinglyLinkedList} This list with the added nodes.
    */
-  concat(addList) {}
+  concat(addList) { // addList is another SLL variable
+    // code here
+  }
 
   /**
    * Finds the node with the smallest number as data and moves it to the front
    * of this list.
    * @return {SinglyLinkedList} This list.
    */
-  moveMinToFront() {}
+  moveMinToFront() {
+    // code here
+  }
 
   /**
    * Splits this list into two lists where the 2nd list starts with the node
@@ -50,7 +54,9 @@ class SinglyLinkedList {
    * @return {SinglyLinkedList} The split list containing the nodes that are
    *    no longer in this list.
    */
-  splitOnVal(val) {}
+  splitOnVal(val) {
+    // code here
+  }
 }
 
 // ******************************
