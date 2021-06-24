@@ -1,3 +1,4 @@
+@model MVC3.Models.User
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +12,15 @@
 <body>
     <h1>Successfully came to @ViewBag.Number</h1>
 
-    <form action="/process" method="post">
-        <p><label>FirstName</label><input type="text" name="FirstName" /></p>
-        <p><label>LastName</label><input type="text" name="LastName" /></p>
-        <p><label>Email</label><input type="text" name="Email" /></p>
-        <p><label>Password</label><input type="text" name="Password" /></p>
+    <form asp-action="Process" asp-controller="Home" method="post">
+        <p><label asp-for="FirstName"></label><input asp-for="FirstName" />
+            <span asp-validation-for="FirstName"></span>
+        </p>
+        <p><label asp-for="LastName"></label><input asp-for="LastName" /><span asp-validation-for="LastName"></span>
+        </p>
+        <p><label asp-for="Email"></label><input asp-for="Email" /><span asp-validation-for="Email"></span></p>
+        <p><label asp-for="Password"></label><input asp-for="Password" /><span asp-validation-for="Password"></span>
+        </p>
         <button type="submit">Submit</button>
     </form>
 </body>

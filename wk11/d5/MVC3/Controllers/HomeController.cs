@@ -46,7 +46,15 @@ namespace MVC3.Controllers
         {
             Console.WriteLine("Reached the Process method");
             User newUser = u;
-            return View("Show", newUser);
+            if (ModelState.IsValid)
+            {
+                // return View("Show", newUser);
+                return RedirectToAction("Show");
+            }
+            else
+            {
+                return View("New");
+            }
 
             // return RedirectToAction("Show");
         }

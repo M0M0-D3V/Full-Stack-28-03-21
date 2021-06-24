@@ -32,3 +32,4 @@ C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d5\MVC3\
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d5\MVC3\obj\Debug\netcoreapp3.1\Razor\Views\Home\New.cshtml.g.cs
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d5\MVC3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Show.cshtml.g.cs
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d5\MVC3\obj\Debug\netcoreapp3.1\Razor\Views\Home\UserDetail.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk11\d5\MVC3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
