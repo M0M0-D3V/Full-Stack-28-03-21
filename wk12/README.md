@@ -7,7 +7,7 @@
 ## This Week ~~
 
 - SESSIONS!
-- Connect to MySQL DB
+- Connect to MySQL DB (OPTIONAL)
 - LINQ / Entity Framework / ORM
 - Relationships
 

@@ -4,37 +4,24 @@
 
 ---
 
-## :school_satchel: ASP.NET Core MVC II - ~10am
+## :school_satchel: SESSION - ~10am
 
-### - Setting up Projects
+### - Review? Questions?
 
-### - Strongly Typed
+### - Session Types
 
-### - Working with Arrays, Lists and Dictionaries
+- String
+- Int32
 
-### - Creating Functions
+### - Create Session Object Type
 
-### - Working with Debugger
-
----
-
-## DATATYPES
-
-- Variables and Types
-- Conditionals
-- Loops
-- Random Values
-- Arrays
-- Lists
-- Dictionaries
-- Type Casting
-- Functions
 
 ---
 
 ## Check in + Continue - 3pm
 
 ### - Bring questions for Q & A
+### - More Session Stuff
 
 ---
 
