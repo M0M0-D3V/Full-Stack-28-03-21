@@ -1,17 +1,12 @@
-# :tada: WELCOME TO WEEK 12 DAY 1! :tada:
+# :tada: WELCOME TO WEEK 12 DAY 2! :tada:
 
 ---
 
-## :school_satchel: SESSION - ~10am
+## :school_satchel: LINQ - ~10am
 
 ### - Review? Questions?
 
-### - Session Types
-
-- String
-- Int32
-
-### - Create Session Object Type
+### - Creating Syntax in Program
 
 ---
 
@@ -19,7 +14,7 @@
 
 ### - Bring questions for Q & A
 
-### - More Session Stuff
+### - More LINQ Stuff
 
 ---
 
@@ -31,4 +26,4 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: DojoDachi :sparkler:
+### END OF DAY GOAL: :sparkler: SPORTS ORM :sparkler:
