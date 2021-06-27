@@ -15,6 +15,15 @@
 
 ---
 
+## Next Week Heads Up! ~~
+
+### - US Holiday Weekend 4-July and 5-July
+- Classes still in session
+- Attendance will be taken on MatterMost
+- Will have pre recorded videos available for lecture material
+- Participate in Team Channel
+- Will resume normal class Tuesday 6-July
+
 ## Calendly ~~ :one: on :one: with Monica
 
 - https://calendly.com/mhong-fullstack/15min

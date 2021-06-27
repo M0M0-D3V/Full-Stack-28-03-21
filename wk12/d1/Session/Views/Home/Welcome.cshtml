@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+@model User
+
+<body>
+    <h3>You made it!</h3>
+    @{
+        if (Model.Username != null)
+        {
+            <h3>Your user info:</h3>
+            <p>Username: @Model.Username</p>
+            <p>Email: @Model.Email</p>
+            <p>Age: @Model.Age</p>
+            <p>Password: @Model.Password</p>
+        }
+        else
+        {
+
+            <h3>now let's make a user!</h3>
+            <form asp-action="LetMeIn" asp-controller="Home" method="POST">
+                <div>
+                    <label asp-for="Username"></label>
+                    <input asp-for="Username">
+                    <span asp-validation-for="Username"></span>
+                </div>
+                <div>
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email">
+                    <span asp-validation-for="Email"></span>
+                </div>
+                <div>
+                    <label asp-for="Age"></label>
+                    <input asp-for="Age">
+                    <span asp-validation-for="Age"></span>
+                </div>
+                <div>
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password">
+                    <span asp-validation-for="Password"></span>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        }
+    }
+    <a asp-action="Reset" asp-controller="Home" class="btn btn-sm btn-secondary">Logout</a>
+</body>
+
+</html>
