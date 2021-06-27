@@ -36,3 +36,4 @@ C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d1\Sessi
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d1\Session\obj\Debug\netcoreapp3.1\Session.genruntimeconfig.cache
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d1\Session\obj\Debug\netcoreapp3.1\Session.csproj.CopyComplete
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d1\Session\obj\Debug\netcoreapp3.1\Razor\Views\Home\Welcome.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d1\Session\obj\Debug\netcoreapp3.1\Razor\Views\Home\AllUsers.cshtml.g.cs

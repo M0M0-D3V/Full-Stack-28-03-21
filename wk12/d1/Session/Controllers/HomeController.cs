@@ -32,6 +32,18 @@ namespace Session.Controllers
         public IActionResult Welcome()
         {
             HttpContext.Session.SetString("Status", "Start");
+            List<User> userList = new List<User>();
+            if (HttpContext.Session.GetObjectFromJson<List<User>>("UserList") == null)
+            {
+                HttpContext.Session.SetObjectAsJson("UserList", userList);
+                Console.WriteLine("no userlist in session so creating one");
+            }
+            else
+            {
+                userList = HttpContext.Session.GetObjectFromJson<List<User>>("UserList");
+                Console.WriteLine("userlist in session so getting it");
+
+            }
             // user details received here
             // ViewBag.Username = HttpContext.Session.GetString("Username");
             // User user = new User();
@@ -40,6 +52,9 @@ namespace Session.Controllers
             // user.Age = Convert.ToInt32(HttpContext.Session.GetInt32("Age"));
             // user.Password = HttpContext.Session.GetString("Password");
             User user = HttpContext.Session.GetObjectFromJson<User>("User");
+
+            // tempdata example
+            ViewBag.Hey = TempData["Hey"];
             return View(user);
         }
         [HttpGet("reset")]
@@ -51,13 +66,29 @@ namespace Session.Controllers
         [HttpPost("letmein")]
         public IActionResult LetMeIn(User u)
         {
-            Console.WriteLine("Hey we made something!");
-            // HttpContext.Session.SetString("Username", u.Username);
-            // HttpContext.Session.SetString("Email", u.Email);
-            // HttpContext.Session.SetInt32("Age", u.Age);
-            // HttpContext.Session.SetString("Password", u.Password);
-            HttpContext.Session.SetObjectAsJson("User", u);
-            return RedirectToAction("Welcome");
+            if (ModelState.IsValid)
+            {
+                Console.WriteLine("Hey we made something!");
+                TempData["Hey"] = "Hey we made something!";
+                // HttpContext.Session.SetString("Username", u.Username);
+                // HttpContext.Session.SetString("Email", u.Email);
+                // HttpContext.Session.SetInt32("Age", u.Age);
+                // HttpContext.Session.SetString("Password", u.Password);
+                // u.ID = u.CreateID(); // can only call from Controller if it is public
+                HttpContext.Session.SetObjectAsJson("User", u);
+                List<User> userList = HttpContext.Session.GetObjectFromJson<List<User>>("UserList");
+                userList.Add(u);
+                HttpContext.Session.SetObjectAsJson("UserList", userList);
+                return RedirectToAction("Welcome");
+            }
+            return View("Welcome");
+        }
+        [HttpGet("allusers")]
+        public IActionResult AllUsers()
+        {
+            List<User> userList = HttpContext.Session.GetObjectFromJson<List<User>>("UserList");
+            ViewBag.UserList = userList;
+            return View();
         }
         public IActionResult Privacy()
         {

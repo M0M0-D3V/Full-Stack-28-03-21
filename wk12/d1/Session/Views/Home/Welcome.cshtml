@@ -11,17 +11,21 @@
 
 <body>
     <h3>You made it!</h3>
+    <h5>@ViewBag.Hey</h5>
     @{
-        if (Model.Username != null)
+        if (Model != null)
+        @* below code doesn't work because it is trying to reference something that belongs to an object *@
+        @* if (Model.Username != null) *@
         {
             <h3>Your user info:</h3>
+            <p>ID: @Model.ID</p>
             <p>Username: @Model.Username</p>
             <p>Email: @Model.Email</p>
             <p>Age: @Model.Age</p>
             <p>Password: @Model.Password</p>
         }
-        else
-        {
+        @* else
+        { *@
 
             <h3>now let's make a user!</h3>
             <form asp-action="LetMeIn" asp-controller="Home" method="POST">
@@ -48,8 +52,9 @@
 
                 <button type="submit">Submit</button>
             </form>
-        }
+        @* } *@
     }
+    <a asp-action="AllUsers" asp-controller="Home" class="btn btn-sm btn-warning">All Users Page</a>
     <a asp-action="Reset" asp-controller="Home" class="btn btn-sm btn-secondary">Logout</a>
 </body>
 

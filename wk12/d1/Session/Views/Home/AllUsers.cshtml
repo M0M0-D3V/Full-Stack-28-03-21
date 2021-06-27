@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Users</title>
+</head>
+
+<body>
+    <h3>Here are all the users in the list:</h3>
+    @{
+        foreach (var user in ViewBag.UserList)
+        {
+            <p>ID: @user.ID</p>
+            <p>Username: @user.Username</p>
+            <p>Email: @user.Email</p>
+            <p>Age: @user.Age</p>
+            <p>Password: @user.Password</p>
+        }
+    }
+    <a asp-action="Reset" asp-controller="Home" class="btn btn-sm btn-secondary">Logout</a>
+</body>
+
+</html>
