@@ -1,0 +1,13 @@
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.exe
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.dev.json
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.csprojAssemblyReference.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d2\LINQ\obj\Debug\netcoreapp3.1\LINQ.genruntimeconfig.cache
