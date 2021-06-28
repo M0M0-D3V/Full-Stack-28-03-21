@@ -6,7 +6,7 @@
 
 ---
 
-### Gettign Started 3.1
+### Getting Started 3.1
 
 ### - 0. Install one time
 
@@ -75,7 +75,9 @@ namespace Monster.Models
     }
 }
 ```
+
 ### 5. Add changes to `Startup.cs`
+
 ```csharp
 // other using statements
 using Monster.Models;
@@ -106,7 +108,9 @@ namespace Monsters
 }
 
 ```
+
 ### 6. Add to `HomeController`
+
 ```csharp
 using Microsoft.EntityFrameworkCore;
 using Monsters.Models;
@@ -117,13 +121,13 @@ namespace Monsters.Controllers
     public class HomeController : Controller
     {
         private MyContext _context;
-     
+
         // here we can "inject" our context service into the constructor
         public HomeController(MyContext context)
         {
             _context = context;
         }
-     
+
         [HttpGet"")]
         public IActionResult Index()
         {
@@ -134,9 +138,40 @@ namespace Monsters.Controllers
     }
  }
 ```
+
 ### 7. Migrations
+
 - `dotnet ef migrations add NameOfMigration`
 - `dotnet ef database update`
+
+---
+
+## CRUD OPERATIONS
+
+### - Create - `dbContext.Add(newThing);`
+
+### - Read - Any of the queries we covered yesterday in LINQ
+
+- ex: `dbContext.Where(u => u.fName == "Pikachu");`
+
+### - Update - Query first and then replace with new value and `SaveChanges();`
+
+-ex:
+
+```csharp
+// We must first Query for a single User from our Context object to track changes.
+    User RetrievedUser = dbContext.Users
+        .FirstOrDefault(user => user.UserId == userId);
+    // Then we may modify properties of this tracked model object
+    RetrievedUser.Name = "New name";
+    RetrievedUser.UpdatedAt = DateTime.Now;
+
+    // Finally, .SaveChanges() will update the DB with these new values
+    dbContext.SaveChanges();
+```
+
+### - Delete - Query `thingToDelete` and then `dbContext.Remove(thingToDelete);`
+
 ---
 
 ## Check in + Continue - 3pm
