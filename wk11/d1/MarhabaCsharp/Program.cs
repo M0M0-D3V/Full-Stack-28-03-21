@@ -15,7 +15,7 @@ namespace MarhabaCsharp
 
             // create number
             int number = 9;
-            int birthDate = 29;
+            // int birthDate = 29;
             string text = "hello world today is beautiful";
             Console.WriteLine($"here is our text: {text}");
 
