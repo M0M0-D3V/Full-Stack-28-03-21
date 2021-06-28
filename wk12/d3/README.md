@@ -148,7 +148,9 @@ namespace Monsters.Controllers
 
 ## CRUD OPERATIONS
 
-### - Create - `dbContext.Add(newThing);`
+### - Create - Use the Add() method and then SaveChanges()
+- ex: `dbContext.TableName.Add(newThing);`
+    - `dbContext.SaveChanges();`
 
 ### - Read - Any of the queries we covered yesterday in LINQ
 
