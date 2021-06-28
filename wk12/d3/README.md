@@ -149,8 +149,9 @@ namespace Monsters.Controllers
 ## CRUD OPERATIONS
 
 ### - Create - Use the Add() method and then SaveChanges()
+
 - ex: `dbContext.TableName.Add(newThing);`
-    - `dbContext.SaveChanges();`
+  - `dbContext.SaveChanges();`
 
 ### - Read - Any of the queries we covered yesterday in LINQ
 
@@ -172,7 +173,10 @@ namespace Monsters.Controllers
     dbContext.SaveChanges();
 ```
 
-### - Delete - Query `thingToDelete` and then `dbContext.Remove(thingToDelete);`
+### - Delete - Query first, then use Remove() method and then SaveChanges()
+
+- ex: `thingToRemove` => `dbContext.TableName.Remove(thingToRemove)`
+  - `dbContext.SaveChanges();`
 
 ---
 
