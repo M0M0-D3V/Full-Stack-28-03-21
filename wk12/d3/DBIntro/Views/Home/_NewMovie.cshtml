@@ -1,0 +1,5 @@
+@model Movie
+<form asp-action="Process" asp-controller="Home" method="POST">
+    @* <form action="/process" method="POST"> *@
+    <partial name="_PartialForm" for="@Model"></partial>
+</form>
