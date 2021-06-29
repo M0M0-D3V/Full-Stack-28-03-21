@@ -72,8 +72,8 @@ class Queue {
    * - Space: O(n) from the stack being used to store the items again.
    * @returns {boolean}
    */
-  isPalindrome() {
-    // code here
+  isPalindrome() { // tacocat, racecar, igoodoogi
+    // code here 
   }
 }
 
