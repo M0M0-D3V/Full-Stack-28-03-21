@@ -184,7 +184,9 @@ namespace Monsters.Controllers
 
 ### - Bring questions for Q & A
 
-### - Another build...
+### - Continue CRUD
+
+### - _Optional_ - Wrapper Model & Partial View
 
 ---
 

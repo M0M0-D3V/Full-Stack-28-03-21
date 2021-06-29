@@ -58,3 +58,7 @@ C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBInt
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\DBIntro.dll
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\DBIntro.pdb
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\DBIntro.genruntimeconfig.cache
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\Razor\Views\Home\Info.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\Razor\Views\Home\_NewMovie.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d3\DBIntro\obj\Debug\netcoreapp3.1\Razor\Views\Home\_PartialForm.cshtml.g.cs
