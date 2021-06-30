@@ -61,6 +61,47 @@ class Queue {
   }
 }
 
+
+// Starter Code for Stack
+class Stack {
+  /**
+   * The constructor is executed when instantiating a new Stack() to construct
+   * a new instance.
+   * @returns {Stack} This new Stack instance is returned without having to
+   *    explicitly write 'return' (implicit return).
+   */
+  constructor(items = []) {
+    this.items = items;
+  }
+
+  push(item) {
+    this.items.push(item);
+    return this.size();
+  }
+
+  pop() {
+    return this.items.pop();
+  }
+
+  peek() {
+    return this.items[this.items.length - 1];
+  }
+
+  isEmpty() {
+    return this.items.length === 0;
+  }
+
+  size() {
+    return this.items.length;
+  }
+
+  print() {
+    const str = this.items.join(" ");
+    console.log(str);
+    return str;
+  }
+}
+
 /**
  * Class to represent a Queue but is implemented using two stacks to store the
  * queued items without using any other objects or arrays to store the items.
