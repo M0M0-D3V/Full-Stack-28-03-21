@@ -20,7 +20,7 @@
 
 ## :page_with_curl:CODE REVIEW - 2:30pm || 3:00pm
 
-### Dojodachi OR
+### Dojodachi OR CRUDelicious
 
 #### - _1. demonstrate functionality_
 
@@ -30,11 +30,11 @@
 
 #### - _4. feedback on code_
 
-- Team 1 - Coding Pirates - 3:00pm with Monica :see_no_evil:
-- Team 2 - Spoiled Coders - 2:30pm with Monica :see_no_evil:
-- Team 6 - Future Developers - 3:00pm with Nathan :guardsman:
-- Team 7 - CodingNinjas - 2:30pm with Alreem :dancer:
-- Team 8 - The Warriors - 3:00pm with Alreem :dancer:
+- Team 1 - Coding Pirates - 3:00pm
+- Team 2 - Spoiled Coders - 2:30pm
+- Team 6 - Future Developers - 3:00pm
+- Team 7 - CodingNinjas - 2:30pm
+- Team 8 - The Warriors - 3:00pm
 
 ---
 

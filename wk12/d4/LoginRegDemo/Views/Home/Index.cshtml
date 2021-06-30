@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h3>Register Form</h3>
+    <form asp-action="Register" asp-controller="Home" method="POST">
+        <div>
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" /><br />
+            <span asp-validation-for="FirstName"></span>
+        </div>
+        <div>
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" /><br />
+            <span asp-validation-for="LastName"></span>
+        </div>
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" /><br />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label asp-for="Password"></label>
+            <input asp-for="Password" /><br />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div>
+            <label asp-for="Confirm"></label>
+            <input asp-for="Confirm" /><br />
+            <span asp-validation-for="Confirm"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    @* Login below *@
+    @* <h3>Login Form</h3>
+        <form asp-action="LetMeIn" asp-controller="Home" method="POST">
+        <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" /><br />
+        <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" /><br />
+        <span asp-validation-for="Password"></span>
+        </div>
+        <button type="submit">Submit</button>
+        </form> *@
+
+    <partial name="_LoginPartial"></partial>
+</div>
