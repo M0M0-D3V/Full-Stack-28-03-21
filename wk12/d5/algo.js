@@ -80,7 +80,7 @@ function countLetters() {
 }
 
 /**
- * 1. Write a function that receives an array of integers and return the smallest positive integer that doesn't exist in the array.
+ * 2. Write a function that receives an array of integers and return the smallest positive integer that doesn't exist in the array.
  * e.g.
  * input: [1, 2]
  * expected output: 3

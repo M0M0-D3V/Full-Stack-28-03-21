@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+</head>
+
+<body>
+    <h3>Number of messages by user: @ViewBag.NumMessages</h3>
+    <h3>Longest Message Char: @ViewBag.LongestMessage</h3>
+    <h3>User With Longest Message: @ViewBag.UserWithLongest.Name - @ViewBag.UserWithLongest.Email</h3>
+    <h3>Unrelated messages to user:</h3>
+    @{
+        foreach (var message in ViewBag.UnrelatedMessages)
+        {
+            <p>@message.Creator.Name - @message.Content</p>
+        }
+    }
+    <a href="/">Go Back Home</a>
+    @* another method using asp helper tags *@
+    @* <a asp-action="Index" asp-controller="Home">Go Back Home</a> *@
+</body>
+
+</html>

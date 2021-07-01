@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<User>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h3>Here are our users:</h3>
+    @foreach (var user in Model)
+    {
+        <div>@user.Name - @user.Email
+            @foreach (var message in user.CreatedMessages)
+            {
+                <p>@message.Content</p>
+            }
+
+        </div>
+    }
+
+    <h3>Other query from messages to users</h3>
+    @foreach (var message in ViewBag.MessageList)
+    {
+        <div>@message.Creator.Name - @message.Content</div>
+    }
+</div>
