@@ -1,0 +1,28 @@
+@model User
+<div>
+    <label asp-for="Name"></label>
+    <input asp-for="Name" /> <br />
+    <span asp-validation-for="Name"></span>
+</div>
+<div>
+    <label asp-for="Birthday"></label>
+    <input asp-for="Birthday" /> <br />
+    <span asp-validation-for="Birthday"></span>
+</div>
+<div>
+    <label asp-for="Email"></label>
+    <input asp-for="Email" /> <br />
+    <span asp-validation-for="Email"></span>
+</div>
+<div>
+    <label asp-for="Password"></label>
+    <input asp-for="Password" /> <br />
+    <span asp-validation-for="Password"></span>
+</div>
+<div>
+    <label asp-for="Confirm"></label>
+    <input asp-for="Confirm" /> <br />
+    <span asp-validation-for="Confirm"></span>
+</div>
+<button type="submit">Submit</button>
+@* this snippet will be used for New and Edit User *@

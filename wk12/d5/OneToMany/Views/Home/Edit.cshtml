@@ -1,0 +1,25 @@
+@model Message
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Message</title>
+</head>
+
+<body>
+    <h3>Edit Form</h3>
+    <form asp-action="UpdateMessage" asp-controller="Home" asp-route-id="@Model.MessageId" method="POST">
+        <div>
+            <label asp-for="Content"></label>
+            <input asp-for="Content" />
+            <span asp-validation-for="Content"></span>
+        </div>
+        @* can also pass the user ID through hidden input.. but we already know user id is in session (: *@
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

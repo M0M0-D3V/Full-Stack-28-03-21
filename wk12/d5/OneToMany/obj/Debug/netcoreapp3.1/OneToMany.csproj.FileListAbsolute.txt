@@ -59,3 +59,8 @@ C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneTo
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\OneToMany.pdb
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\OneToMany.genruntimeconfig.cache
 C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\UserDetails.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignIn.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\_FormPartial.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\_LoginPartial.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\_MessageForm.cshtml.g.cs
+C:\Users\mimi_\Documents\CodingDojo\Instructor\Full-Stack-28-03-21\wk12\d5\OneToMany\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs

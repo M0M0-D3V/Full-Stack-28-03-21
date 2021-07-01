@@ -1,0 +1,11 @@
+@model Message
+<h3>Create Message</h3>
+<form asp-action="ProcessMessage" asp-controller="Home" method="POST">
+    <div>
+        <label asp-for="Content"></label>
+        <input asp-for="Content" />
+        <span asp-validation-for="Content"></span>
+    </div>
+    @* can also pass the user ID through hidden input.. but we already know user id is in session (: *@
+    <button type="submit">Submit</button>
+</form>

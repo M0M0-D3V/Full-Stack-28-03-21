@@ -1,24 +1,41 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model List<User>
+@model Container
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Welcome @Model.User.Name</h1>
     <h3>Here are our users:</h3>
-    @foreach (var user in Model)
+    @foreach (var user in Model.Users)
     {
-        <div>@user.Name - @user.Email
+        <div><a href="/@user.UserId">@user.Name</a> - @user.Email
             @foreach (var message in user.CreatedMessages)
             {
-                <p>@message.Content</p>
+                <p>@message.Content.</p>
+                @if (Model.LoggedUserId == user.UserId)
+                {
+                    <a class="btn-sm btn-warning" href="/edit/@message.MessageId">Edit</a> <a class="btn-sm btn-danger"
+            href="/delete/@message.MessageId">Delete</a>
+                }
             }
-
         </div>
     }
-
     <h3>Other query from messages to users</h3>
-    @foreach (var message in ViewBag.MessageList)
+    @foreach (var message in Model.Messages)
     {
-        <div>@message.Creator.Name - @message.Content</div>
+        <div>@message.Content - @message.Creator.Name</div>
     }
 </div>
+@* passing in Message as model type "for" *@
+<partial name="_MessageForm" for="Message"></partial>
+
+@*
+    - [x] Login / Register
+    - [x] User validation
+    - [x] User can write New Message
+    - [x] Dashboard page to have all Messages
+    - [x] Link to Each User to show details
+    - [x] Only User can Edit or 
+    - [x] Delete their Message on Dashboard
+    - [x] Edit page has prepopulated form
+    - [x] **Extra** Container, Partials..
+*@

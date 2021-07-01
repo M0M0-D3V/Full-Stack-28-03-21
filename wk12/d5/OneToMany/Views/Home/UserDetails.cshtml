@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <h3>Number of messages by user: @ViewBag.NumMessages</h3>
-    <h3>Longest Message Char: @ViewBag.LongestMessage</h3>
-    <h3>User With Longest Message: @ViewBag.UserWithLongest.Name - @ViewBag.UserWithLongest.Email</h3>
-    <h3>Unrelated messages to user:</h3>
+    <p>Number of messages by user: @ViewBag.NumMessages</p>
+    <p>Longest Message Char: @ViewBag.LongestMessage</p>
+    <p>User With Longest Message: @ViewBag.UserWithLongest.Name - @ViewBag.UserWithLongest.Email</p>
+    <p>Unrelated messages to user:</p>
     @{
         foreach (var message in ViewBag.UnrelatedMessages)
         {

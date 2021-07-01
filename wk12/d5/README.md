@@ -48,9 +48,17 @@ public IActionResult Index()
 
 ### - Bring questions for Q & A
 
-### - Continue Building One To Many
-
 ### - Announce Champion of the Week...
+
+### - Continue Building One To Many
+- [] Login / Register
+- [] User validation
+- [] User can write New Message
+- [] Dashboard page to have all Messages
+- [] Link to Each User to show details
+- [] Only User can Edit or Delete their Message on Dashboard
+- [] Edit page has prepopulated form
+- [] **Extra** 
 
 ---
 
