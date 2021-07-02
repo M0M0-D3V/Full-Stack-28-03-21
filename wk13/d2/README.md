@@ -25,4 +25,4 @@
 
 ### END OF DAY GOAL: :sparkler: Wedding Planner :sparkler:
 
-Play along with Profile Pictures next week! Put a picture about
+Play along with Profile Pictures next week! Put a picture about something that inspires you. It can be person, idea, nature, anything..

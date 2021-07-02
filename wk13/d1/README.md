@@ -13,7 +13,7 @@
 
 ### - 1. Concept
 
-- Reverse Engineer 
+- Reverse Engineer
 - Table Tools in MySQL
 - Digram and Sheets to Show Relationships
 
@@ -24,8 +24,8 @@
 - `.ThenInclude()`
 
 ### - 3. Build code on top of OneToMany
----
 
+---
 
 #### `gentle reminders...`
 
@@ -37,4 +37,4 @@
 
 ### END OF DAY GOAL: :sparkler: Products / Categories :sparkler:
 
-Play along with Profile Pictures next week! Put a picture about
+Play along with Profile Pictures next week! Put a picture about something that inspires you. It can be person, idea, nature, anything..
