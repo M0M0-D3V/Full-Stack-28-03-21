@@ -11,17 +11,19 @@
 
 ## :school_satchel: Many To Many Relationships - Recorded Lecture
 
-### - Review MySQL WorkBench
+### - 1. Concept
 
-- Table Tools
-- Reverse Engineer
+- Reverse Engineer 
+- Table Tools in MySQL
+- Digram and Sheets to Show Relationships
 
-### - Many To Many (Reading)
+### - 2. Many To Many (Reading)
 
 - 3rd Table
 - Add to Context DbSet
 - `.ThenInclude()`
 
+### - 3. Build code on top of OneToMany
 ---
 
 
