@@ -1,4 +1,4 @@
-# :tada:WELCOME TO WEEK 13 DAY 1! :tada:
+# :tada:WELCOME TO WEEK 13 DAY 2! :tada:
 
 ---
 
@@ -9,21 +9,11 @@
 
 ---
 
-## :school_satchel: Many To Many Relationships - Recorded Lecture
+## :school_satchel: DEMO PREP FOR EXAM - Recorded Lecture
 
-### - Review MySQL WorkBench
+(Will be recorded in several videos)
 
-- Table Tools
-- Reverse Engineer
-
-### - Many To Many (Reading)
-
-- 3rd Table
-- Add to Context DbSet
-- `.ThenInclude()`
-
----
-
+## <img src="favorite-movies.png" alt="favmovies" width="75%">
 
 #### `gentle reminders...`
 
@@ -33,6 +23,6 @@
 
 ---
 
-### END OF DAY GOAL: :sparkler: Products / Categories :sparkler:
+### END OF DAY GOAL: :sparkler: Wedding Planner :sparkler:
 
 Play along with Profile Pictures next week! Put a picture about
