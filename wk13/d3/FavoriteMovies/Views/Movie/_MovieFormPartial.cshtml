@@ -1,0 +1,22 @@
+@model Movie
+<div>
+    <label asp-for="Title"></label>
+    <input asp-for="Title" /><br />
+    <span class="text-danger" asp-validation-for="Title"></span>
+</div>
+<div>
+    <label asp-for="Star"></label>
+    <input asp-for="Star" /><br />
+    <span class="text-danger" asp-validation-for="Star"></span>
+</div>
+<div>
+    <label asp-for="ImgUrl"></label>
+    <input asp-for="ImgUrl" /><br />
+    <span class="text-danger" asp-validation-for="ImgUrl"></span>
+</div>
+<div>
+    <label asp-for="ReleaseDate"></label>
+    <input asp-for="ReleaseDate" /><br />
+    <span class="text-danger" asp-validation-for="ReleaseDate"></span>
+</div>
+<button type="submit">Submit</button>
