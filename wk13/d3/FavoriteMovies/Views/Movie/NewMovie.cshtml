@@ -1,0 +1,9 @@
+@* ViewBag.User *@
+@model Movie
+<p>Hello @ViewBag.User.FirstName! <a asp-action="Dashboard" asp-controller="Movie">Dashboard</a> - <a
+        asp-action="LogOut" asp-controller="Home">LogOut</a></p>
+
+<h1>Post A Movie</h1>
+<form asp-action="PostMovie" asp-controller="Movie" method="POST">
+    <partial name="_MovieFormPartial"></partial>
+</form>

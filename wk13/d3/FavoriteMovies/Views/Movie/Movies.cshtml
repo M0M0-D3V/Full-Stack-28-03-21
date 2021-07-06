@@ -1,0 +1,43 @@
+@* page will show one movie detail *@
+@* ViewBag.User *@
+@model Movie
+<p>Hello @ViewBag.User.FirstName! <a asp-action="Dashboard" asp-controller="Movie">Dashboard</a> - <a
+        asp-action="LogOut" asp-controller="Home">LogOut</a></p>
+<div class="row">
+    <div class="col-md-6">
+        <h1>@Model.Title</h1>
+        <p>Starring: @Model.Star</p>
+        <p>Released: @Model.ReleaseDate.ToString("d")</p>
+        <p>Posted By: @Model.PostedBy.FirstName</p>
+        <h3>Fans</h3>
+        <ul>
+            @foreach (var fan in Model.Fans)
+            {
+                <li>@fan.Fan.FirstName</li>
+            }
+        </ul>
+        @* buttons here, Delete if user is poster otherwise show Like or Unlike *@
+        @if (Model.PostedBy.UserId == ViewBag.User.UserId)
+        {
+            <a asp-action="Edit" asp-controller="Movie" asp-route-movieId="@Model.MovieId"><button
+                class="btn btn-sm btn-success">Edit</button></a>
+            <a asp-action="Delete" asp-controller="Movie" asp-route-movieId="@Model.MovieId"><button
+                class="btn btn-sm btn-danger">Delete</button></a>
+        }
+        @* else if user already likes movie show the Unlike button *@
+        else if (Model.Fans.Any(f => f.UserId == ViewBag.User.UserId))
+        {
+            <a asp-action="Unlike" asp-controller="Movie" asp-route-movieId="@Model.MovieId"><button
+                class="btn btn-sm btn-warning">Unlike</button></a>
+        }
+        @* else user has not liked show the like button *@
+        else
+        {
+            <a asp-action="Like" asp-controller="Movie" asp-route-movieId="@Model.MovieId"><button
+                class="btn btn-sm btn-primary">Like</button></a>
+        }
+    </div>
+    <div class="col-md-6">
+        <img src="@Model.ImgUrl" alt="@Model.Title" width="90%" height="90%">
+    </div>
+</div>

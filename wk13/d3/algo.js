@@ -32,13 +32,60 @@ class BinarySearchTree {
     }
     return false;
   }
+  insert(newVal) {
+    // check if empty
+    if (this.isEmpty()) {
+      // if empty return tree
+      this.root = new Node(newVal);
+      return this;
+    }
+    // else
+    // traverse through tree
+    // track a current
+    let current = this.root;
+    // while loop
+    while (current !== null) {
+      // check if current value is less or greater
+      if (newVal < current.data) {
+        // move left or right through tree
+        if (current.left === null) {
+          current.left = new Node(newVal);
+          return this;
+        } else {
+          current = current.left;
+        }
+      } else if (newVal > current.data) {
+        if (current.right === null) {
+          current.right = new Node(newVal);
+          return this;
+        } else {
+          current = current.right;
+        }
+      } else {
+        console.log("must be equal");
+      }
+    }
+    return this;
+  }
+
   /**
    * Determines if this tree contains the given searchVal.
    * @param {number} searchVal The number to search for in the node's data.
    * @return {boolean} Indicates if the searchVal was found.
    */
   contains(searchVal) {
-    //  code here
+    let current = this.root;
+    while (current) {
+      if (current.data === searchVal) {
+        return true;
+      }
+      if (searchVal < current.data) {
+        current = current.left;
+      } else {
+        current = current.right;
+      }
+    }
+    return false;
   }
 
   /**
@@ -47,7 +94,18 @@ class BinarySearchTree {
    * @return {boolean} Indicates if the searchVal was found.
    */
   containsRecursive(searchVal, current = this.root) {
-    //  code here
+    if (current === null) {
+      return false;
+    }
+    if (current.data === searchVal) {
+      return true;
+    }
+    if (searchVal < current.data) {
+      return this.containsRecursive(searchVal, current.left);
+    }
+    if (searchVal > current.data) {
+      return this.containsRecursive(searchVal, current.right);
+    }
   }
 
   /**
@@ -60,7 +118,23 @@ class BinarySearchTree {
    * @returns {Array<number>} All node's data in DFS Preorder.
    */
   toArrInorder(node = this.root) {
-    // code here
+    let current = node;
+    const stack = [],
+      vals = [];
+
+    while (true) {
+      if (current !== null) {
+        stack.push(current);
+        current = current.left;
+      } else if (stack.length > 0) {
+        current = stack.pop();
+        vals.push(current.data);
+        current = current.right;
+      } else {
+        break; //happens when current is null or stack is empty
+      }
+    }
+    return vals;
   }
 
   //   example
@@ -73,7 +147,7 @@ class BinarySearchTree {
           10     22      35     70
         /   \   /  \    /  \   /  \
       4    12  18  24  31  44 66  90
-  */
+  */// ?
 
   /**
    * DFS Inorder: (Left, Parent, Right)
@@ -86,7 +160,12 @@ class BinarySearchTree {
    * @return {Array<number>} The vals in DFS Preorder once all nodes visited.
    */
   toArrInOrderRecursive(node = this.root, vals = []) {
-    //  code here
+    if (node) {
+      this.toArrInorder(node.left, vals);
+      vals.push(node.data);
+      this.toArrInorder(node.right, vals);
+    }
+    return vals;
   }
 }
 
@@ -97,3 +176,14 @@ class BinarySearchTree {
 4. Benefit of sharing your solution at the end is practice speaking about code and thought process. 
 */
 // const Devs = []
+
+// ********************TEST CODE
+let bts = new BinarySearchTree();
+bts.insert(8);
+bts.insert(2);
+bts.insert(7);
+bts.insert(14);
+bts.insert(21);
+bts.insert(5);
+bts.insert(3);
+bts.insert(10);
