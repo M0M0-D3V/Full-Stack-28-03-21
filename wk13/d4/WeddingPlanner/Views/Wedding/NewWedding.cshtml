@@ -1,0 +1,33 @@
+@model Container
+<div class="row">
+    <h1>Welcome @Model.LoggedUser.FirstName</h1>
+    <a asp-action="Dashboard" asp-controller="Wedding">Dashboard</a>
+    <a asp-action="LogOut" asp-controller="Home">LogOut</a>
+</div>
+<div class="container">
+    <h3>Plan Your Wedding</h3>
+    <form asp-action="ProcessWedding" asp-controller="Wedding" method="POST">
+        <div>
+            <label asp-for="@Model.Wedding.WedderOne"></label>
+            <span class="text-danger" asp-validation-for="@Model.Wedding.WedderOne"></span><br>
+            <input asp-for="@Model.Wedding.WedderOne">
+        </div>
+        <div>
+            <label asp-for="@Model.Wedding.WedderTwo"></label>
+            <span class="text-danger" asp-validation-for="@Model.Wedding.WedderTwo"></span><br>
+            <input asp-for="@Model.Wedding.WedderTwo">
+        </div>
+        <div>
+            <label asp-for="@Model.Wedding.WeddingDate"></label>
+            <span class="text-danger" asp-validation-for="@Model.Wedding.WeddingDate"></span><br>
+            <input asp-for="@Model.Wedding.WeddingDate">
+        </div>
+        <div>
+            <label asp-for="@Model.Wedding.WeddingAddress"></label>
+            <span class="text-danger" asp-validation-for="@Model.Wedding.WeddingAddress"></span><br>
+            <input asp-for="@Model.Wedding.WeddingAddress">
+        </div>
+        @* <input type="hidden" asp-for="@Model.Wedding.UserId" value="@Model.LoggedUser.UserId"> *@
+        <button type="submit">Create</button>
+    </form>
+</div>

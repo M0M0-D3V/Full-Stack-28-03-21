@@ -1,0 +1,34 @@
+@model Container
+<div class="row">
+    <h1>Welcome @Model.LoggedUser.FirstName</h1>
+    <a asp-action="Dashboard" asp-controller="Wedding">Dashboard</a>
+    <a asp-action="LogOut" asp-controller="Home">LogOut</a>
+</div>
+<h1>@Model.Wedding.WedderOne and @Model.Wedding.WedderTwo's Wedding</h1>
+<h5>Wedding Date: @Model.Wedding.WeddingDate.ToString("MMMM dd yyy")</h5>
+<h5>Guests:</h5>
+<ul>
+    @foreach (var rsvp in Model.AllRSVPs)
+    {
+        <li>@rsvp.Attendee.FirstName @rsvp.Attendee.LastName</li>
+    }
+</ul>
+
+@if (Model.Wedding.UserId == Model.LoggedUser.UserId)
+{
+    <a asp-action="Delete" asp-controller="Wedding" asp-route-weddingId="@Model.Wedding.WeddingId"
+    class="btn btn-sm btn-danger">Delete</a>
+}
+@* else if user already rsvp show the un-rsvp button *@
+@* another query is .Where() *@
+else if (@Model.Wedding.Guests.Any(g => g.UserId == Model.LoggedUser.UserId))
+{
+    <a asp-action="UnRSVP" asp-controller="Wedding" asp-route-weddingId="@Model.Wedding.WeddingId"><button
+        class="btn btn-sm btn-warning">Un-RSVP</button></a>
+}
+@* else user has not rsvped wediing, show the rsvp button *@
+else
+{
+    <a asp-action="RSVP" asp-controller="Wedding" asp-route-weddingId="@Model.Wedding.WeddingId"><button
+        class="btn btn-sm btn-primary">RSVP</button></a>
+}

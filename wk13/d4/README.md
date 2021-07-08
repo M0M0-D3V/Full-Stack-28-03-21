@@ -18,7 +18,7 @@
 
 ---
 
-## :page_with_curl:CODE REVIEW - 3:00pm || 3:30pm
+## :page_with_curl:CODE REVIEW (Take Attendance) - 3:00pm || 2:30pm
 
 ### Login/Register OR Products/Categories OR Wedding Planner
 
@@ -30,28 +30,19 @@
 
 #### - _4. feedback on code_
 
-- Team 1 - Coding Pirates - 3:00pm
-- Team 2 - Spoiled Coders - 3:30pm
-- Team 6 - Future Developers - 3:00pm
-- Team 7 - CodingNinjas - 3:30pm
-- Team 8 - The Warriors - 3:00pm
+- Team 1 - Coding Pirates - 3:00pm w/Alreem
+- Team 2 - Spoiled Coders - 2:30pm w/Nathan
+- Team 6 - Future Developers - 3:00pm w/Monica
+- Team 7 - CodingNinjas - 2:30pm w/Alreem
+- Team 8 - The Warriors - 3:00pm w/Nathan
 
 ---
 
-## :school_satchel: The Wall Demo (with some changes) - ~10am
-
-- \*\*\* A couple of changes...
-  - Show Register / Login Page as `/`
-  - Success page as `/dashboard`
-  - Dashboard page will have `Write Message` form and also `List of Messages` people wrote
-  - Only logged user can `Delete` their own Message
-  - Instead of `Comments`, will make `Likes` and `# Likes` feature
-  - Each Message will have `OneMessage` page and show `List of People` who Like
-  - what else can we do?
+## :school_satchel: Wedding Planner Demo - ~10am
 
 ---
 
-## Continue The Wall Demo @ 4PM
+## _(Optional)_ Continue Wedding Planner Demo @ 4PM
 
 ---
 
