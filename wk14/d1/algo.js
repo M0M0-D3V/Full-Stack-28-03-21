@@ -10,7 +10,7 @@ Read materials for class or continue working on other Project or Assignment afte
 // Starter class Node and SinglyLinkedList
 // [] implement reverse()
 // [] implement removeNegatives()
-// [] implement hasNegatives()
+// [] implement hasLoop()
 
 
 class Node {

@@ -6,8 +6,13 @@
 
 ## This Week ~~
 
-### :crown:KEEP CALM & CODE ON:crown:
+- Final Presentation and GRADUATION! 15-July
 
+### :crown:KEEP CALM & CODE ON:crown:
+---
+### On track for Graduation
+- 70% Assignments this stack by Wednesday 12pm
+- 80% Attendance Overall
 ---
 
 ## EXAM RETAKES
@@ -26,10 +31,12 @@
 - [ ] Make it Mashallah
 - [ ] fetch data from 3rd party api
 - [ ] Each teammember to contribute a feature
+- [ ] Be creative
 
 ## Idea
 - [ ] Try collaborating on GitHub
-
+- [ ] Implement socket with SignalR
+- [ ] Try creating React front end
 ---
 
 ## Picture theme this week: :mortar_board: GRADUATION :mortar_board: !
