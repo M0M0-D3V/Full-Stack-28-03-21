@@ -7,6 +7,8 @@
 ## This Week ~~
 
 - Final Presentation and GRADUATION! 15-July
+### Graduation @ 1pm
+### Final Presentation @2:30pm
 
 ### :crown:KEEP CALM & CODE ON:crown:
 ---

@@ -1,20 +1,31 @@
-# :tada:WELCOME TO WEEK 14 DAY 3! :tada:
+# :tada:WELCOME TO WEEK 14 DAY 4! :tada:
 
 ## Today's Agenda
 ---
-### - Coordinate with your teams!
-- Projects
-- Communicate
-- Complete assignments / deployment
+## Nominate this week's champion in MatterMost
+
+- Write a message in your team channel who you nominate and reason
+
+### - Will announce at graduation!
+
+---
+## Tip of the Day: ABC
+- Always
+- Be
+- Coding
+
+### - remember we are all on our own journey and the software world is huge. There is a place for everyone to be successful.
+### - Continue to work on our `craft` and `passion` and there will be plenty ways to grow.
+
+..Also, while rest is very important, please don't take a break from coding longer than a week. You will literally forget things! Speaking from experience.
 ---
 
-## Tip of the Day: Keep up a routine
-What helped me the most was to maintain the bootcamp schedule 9am-5pm the best I can and instead of bootcamp stuff, I did job searching tasks as well as daily algorithm. After my EOD Goal, I took a break and then continued my coding projects. This helped me to prioritize my day and have some sort of structure in the chaos that is job searching and combining that with working on projects.
+## :video_game:ACTIVITY DAY:space_invader: - 1pm
 
-### Sidenote.. if ever any task feels overwhelming
-- Give yourself permission to do the task "half-ass" or break it down smaller steps to make it easier. Because getting some done is still way better than getting nothing done at all.
-- Ask a friend how would they tackle it and much time do they estimate to take?
+### :balloon:Join us here in main room for Activity games!
 ---
+
+
 
 ## Check in at @ 3PM
 - Keep working in your teams. Will have message in MatterMost to do emoji on
@@ -40,5 +51,7 @@ Here are some questions. Feel free to share your answer to any:
 #### Your name for certificate will be the same spelling as on platform, please let me know if you need it changed.
 
 ---
+## - :pushpin: Assignments and Deployment due by 12pm
+---
 
-### END OF DAY GOAL: :sparkler: Coordinate with your team :sparkler:
+### END OF DAY GOAL: :sparkler: Don't break your projects! :sparkler:
